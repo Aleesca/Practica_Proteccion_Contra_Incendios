@@ -1,0 +1,157 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{preamble}
+
+\addbibresource{refs.bib}
+
+\begin{document}
+
+\pagenumbering{Alph}  % Numeración alfabética para titlepage (evita duplicados)
+\begin{titlepage}
+	\vspace*{-2cm}
+	% --- LOGOTIPOS (ALINEADOS ARRIBA, IZQUIERDA Y DERECHA) ---
+	\noindent
+	\includegraphics[width=0.35\textwidth]{ule.jpg}
+	\hfill
+	\includegraphics[height=2.5cm]{escudo-ingenierias.png}
+
+	\vspace{0.2cm}
+
+	% --- CUADRO AZUL PARA EL TÍTULO ---
+	\begin{tcolorbox}[colback=maincolor,colframe=maincolor,arc=0pt,outer arc=0pt,grow to left by=3cm,grow to right by=3cm,fontupper=\color{white}]
+		\centering
+		\vspace{0.8cm}
+		{\Huge \bfseries INSTALACIONES II}\\[0.4cm]
+		{\Large PRÁCTICA DE PROTECCIÓN CONTRA INCENDIOS}
+		\vspace{0.8cm}
+	\end{tcolorbox}
+
+	\vspace{0.5cm}
+	\begin{center}
+		\includegraphics[height=9cm, keepaspectratio]{Figuras/chimenea_recta.jpg}
+	\end{center}
+	\vfill
+
+	% --- AUTORES Y DATOS (ALINEADOS A LA DERECHA, SIN CUADRO) ---
+	\begin{flushright}
+		\large
+		\begin{tabular}{@{}ll}
+			\textbf{Grupo:}   & 1 \\ [5pt]
+			\textbf{Autores:} & Alberto España Carrete   \\
+                        & Carlos Fernández Palanca \\
+                        & Rubén Modino López      \\
+                        & Juan Diego Niño González \\ [5pt]
+      		\textbf{Tutor:}   & José Luis Falagán Cavero
+			
+		\end{tabular}
+	\end{flushright}
+
+	\vspace{0.5cm}
+
+	\begin{center}
+    {\fontsize{16pt}{19pt}\LARGE(Junio, 2026)}
+  	\end{center}
+\end{titlepage}
+
+\pagenumbering{roman}
+\clearpage
+\pagestyle{empty}
+
+{
+	\hypersetup{linkcolor=black}
+	\tableofcontents
+	\clearpage
+
+	% --- Índice de figuras ---
+	{
+		\let\oldnumberline\numberline
+		\renewcommand{\numberline}{\figurename~\oldnumberline}
+		\listoffigures
+		\phantomsection
+		\addtocontents{toc}{\protect\cftpagenumbersoff{section}}
+		\addcontentsline{toc}{section}{\listfigurename}
+		\addtocontents{toc}{\protect\cftpagenumberson{section}}
+	}
+	\clearpage
+
+	% --- Índice de tablas ---
+	{
+		\let\oldnumberline\numberline
+		\renewcommand{\numberline}{\tablename~\oldnumberline}
+		\listoftables
+		\phantomsection
+		\addtocontents{toc}{\protect\cftpagenumbersoff{section}}
+		\addcontentsline{toc}{section}{\listtablename}
+		\addtocontents{toc}{\protect\cftpagenumberson{section}}
+	}
+
+}
+
+\pagenumbering{arabic}
+\pagestyle{contenido}
+\section*{Resumen}
+\phantomsection
+\addcontentsline{toc}{section}{Resumen}
+
+
+
+\section{Introducción e objetivos}
+
+
+
+\section{Metodología}
+
+
+\subsection{Datos introducidos en el programa}
+
+
+\subsection{Topología del edificio y selección del esquema de instalación}
+
+
+
+
+
+\subsection{Justificación del trazado elegido}
+
+
+
+\subsection{Equipos instalados y materiales de la instalación}
+
+
+
+\section{Resultados y discusión}
+
+\subsection{Análisis de la verificación hidráulica mediante mapa de estados}
+
+
+
+\subsection{Análisis de los puntos singulares más desfavorables}
+
+
+
+\section{Conclusiones}
+
+
+
+%%%% Referencias------------------------
+
+% \cleardoublepage
+% \phantomsection
+% \addcontentsline{toc}{section}{Bibliografía}
+% \printbibliography[title={Bibliografía}]
+
+
+\myappendix{Cálculos}
+\label{anex:calculos}
+\includepdf[pages=-]{Figuras/Anejo_calculo.pdf}
+
+\myappendix{Planos}
+\label{anex:planos}
+
+\includepdf[pages=-, fitpaper=true]{Figuras/planta_distribucion.pdf}
+\includepdf[pages=-, fitpaper=true]{Figuras/acometida_ins_individual.pdf}
+\includepdf[pages=-, fitpaper=true]{Figuras/instalacion_comun-montantes.pdf}
+\includepdf[pages=-, fitpaper=true]{Figuras/esquema_vertical.pdf}
+
+
+\end{document}
