@@ -1,0 +1,659 @@
+{\rtf1\ansi \deff0\deflang1024{\fonttbl{\f0\fswiss Arial;}{\f1\froman Symbol;}{\f2\fswiss Arial;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;
+\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue127;\red0\green127\blue127;\red0\green127\blue0;\red127\green0\blue127;\red127\green0\blue0;\red127\green127\blue0;\red127\green127\blue127;
+\red192\green192\blue192;}{\stylesheet{\fs20\lang1034 \snext0 Normal;}}{\info{\creatim\yr1996\mo10\dy14\hr12\min35}{\version1}{\edmins0}{\nofpages0}{\nofwords65536}{\nofchars65536}{\vern16417}}
+\paperw12240\paperh15840\margl850\margr850\margt700\margb700\gutter0 \ftnbj\hyphhotz425 \sectd \linex0\headery709\footery709\colsx709 \pard\plain \qc \f2\fs24\lang1034 {\plain \f2\fs28\b\lang1034 ANEXO DE CALCULOS}{\plain \b\f2\lang1034
+\par }\pard \qc 
+\par
+\par \pard {\b F}{\b \'f3}{\b rmulas Generales}{\b
+\par }{\ul
+\par }\fs18 Emplearemos las siguientes:
+\par \pard
+\par \pard \li567 H = Z + (P/{\f1 g} ) ;  {\f1 g} = {\f1 r} x g ;  H{\fs12 \dn6 1} = H{\fs12 \dn6 2} + h{\fs12 \dn6 f}  
+\par \par \pard Siendo: 
+\par \pard \li567 H = Altura piezom\'e9trica, energ\'eda por unidad de peso (mca).
+\par z = Cota (m).
+\par P/{\f1 g} = Altura de presi\'f3n (mca).
+\par {\f1 g} = Peso espec\'edfico fluido.
+\par {\f1 r} = Densidad fluido (kg/m\'b3).
+\par g = Aceleraci\'f3n gravedad. 9,81 m/s\'b2.
+\par h{\fs12 \dn6 f} = P\'e9rdidas de altura piezom\'e9trica, energ\'eda por unidad de peso (mca).
+\par \par \pard a) {\ul Tuber\'edas y v\'e1lvulas}.
+\par \par \pard \li567 H{\fs12 \dn6 i} - H{\fs12 \dn6 j} = h{\fs12 \dn6 ij} = r{\fs12 \dn6 ij} x Q{\fs12 \dn6 ij}{\fs12 \up6 n} + m{\fs12 \dn6 ij} x Q{\fs12 \dn6 ij}\'b2 
+\par 
+\par Darcy - Weisbach :
+\par r{\fs12 \dn6 ij} = 10{\fs12 \up6 9} x 8 x f x L x {\f1 r} / ({\f1 p}\'b2 x g x D{\fs12 \up6 5} x 1000) ; n = 2 
+\par m{\fs12 \dn6 ij} = 10{\fs12 \up6 6} x 8 x k x {\f1 r} / ({\f1 p}\'b2 x g x D{\fs12 \up6 4} x 1000) 
+\par Re = 4 x Q / ({\f1 p} x D x {\f1 n}) 
+ \par Re {\f1 \'a3} 2000: Laminar, f\'f3rmula de Hagen-Poiseuille:  f = 64 / Re 
+\par Re {\f1 \'b3} 4000: Turbulento:  f = 0.25 / [lg{\fs12 \dn6 10}({\f1 e} / (3.7 x D) + 5.74 / Re{\fs12 \up6 0.9} )]\'b2 
+\par 2000 {\f1 \'3c} Re {\f1 \'3c} 4000: Se emplea una interpolaci\'f3n c\'fabica 
+\par 
+\par Hazen - Williams :
+\par r{\fs12 \dn6 ij} = 12,171 x 10{\fs12 \up6 9} x L / (C{\fs12 \up6 1,852} x D{\fs12 \up6 4,871} ) ; n = 1,852 
+\par m{\fs12 \dn6 ij} = 10{\fs12 \up6 6} x 8 x k / ({\f1 p}\'b2 x g x D{\fs12 \up6 4} ) 
+\par \par \pard b) {\ul Bombas-Grupos de presi\'f3n}.
+\par \par \pard \li567 h{\fs12 \dn6 ij} = -{\f1 w}\'b2 x (h{\fs12 \dn6 0} - rb x (Q/{\f1 w}){\fs12 \up6 nb}) 
+\par \par \pard Siendo: 
+\par \pard \li567 f = Factor de fricci\'f3n en tuber\'edas (adimensional).
+\par L = Longitud equivalente de tuber\'eda (m).
+\par D = Di\'e1metro de tuber\'eda o v\'e1lvula (mm).
+\par Q = Caudal (l/s).
+\par {\f1 e} = Rugosidad absoluta tuber\'eda (mm).
+\par Re = N\'famero de Reynolds (adimensional).
+\par {\f1 n} = Viscosidad cinem\'e1tica del fluido (m\'b2/s).
+\par k = Coeficiente de p\'e9rdidas en v\'e1lvula (adimensional).
+\par {\f1 w} = Coeficiente de velocidad en bombas (adimensional).
+\par h{\fs12 \dn6 0} = Altura bomba a caudal cero (mca). 
+\par rb = Coeficiente en bombas.
+\par nb = Exponente caudal en bombas.
+\par \pard
+\par \pard
+\par \pard c) {\ul BIES}.
+\par \par \pard \li567 Q(l/min) = K{\fs12 \dn6 BIE} x \plain\f1\fs18 \'d6\plain\f0\fs18 Pma(bar) 
+\par \pard \li567 Q(l/min) = K{\fs12 \dn6 boq} x \plain\f1\fs18 \'d6\plain\f0\fs18 Pboq(bar) 
+\par K{\fs12 \dn6 BIE} = Coeficiente de caudal BIE. 
+ \par K{\fs12 \dn6 boq} = Coeficiente de caudal boquilla. 
+ \par \pard
+\par \pard d) {\ul Rociador Autom\'e1tico}.
+\par \par \pard \li567 Q(l/min) = k x \plain\f1\fs18 \'d6\plain\f0\fs18 P(bar) 
+\par k = Coeficiente rociador. 
+ \par \pard
+\par
+\par {\fs26\b Red IPCI 1}
+\par 
+\par {\fs24\b Datos Generales Instalación }
+\par 
+\par C\'e1lculo por: Hazen - Williams 
+\par P\'e9rdidas secundarias: 20 % 
+\par Velocidad m\'e1xima: 10 m/s 
+\par Presi\'f3n din\'e1mica m\'ednima: 
+\par \tab BIE; Pm\'ednima-boquilla(bar): 2 ;Pm\'e1xima-boquilla(bar): 5 
+\par \tab HIDRANTE EXTERIOR; Pm\'ednima(bar): 5 
+\par \tab ROCIADOR AUTOMATICO; Pm\'ednima(bar): 
+\par \tab \tab LIGERO: 0,7 
+; ORDINARIO: 0,57 
+; EXTRAORDINARIO: 0,5 
+\par \pard
+\par \pard 
+\par {\fs24\b Resultados Ramas y Nudos}
+\par
+\par 
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx567
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1134
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2450
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7700
+\pard \qc\intbl 
+{\fs16{\fs16 Linea\cell}{\fs16 Nudo Orig.\cell}{\fs16 Nudo Dest.\cell}{\fs16 Lreal(m)\cell}{\fs16 Material\cell}{\fs16 C\cell}{\fs16 Q(l/s)\cell}{\fs16 Dn(mm)\cell}{\fs16 Dint(mm)\cell}{\fs16 hf(mca)\cell}{\fs16 V(m/s)\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx567
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1134
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2450
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7700
+\pard \qr\intbl 
+{\fs16{\fs16 7\cell}{\fs16 8\cell}{\fs16 9\cell}{\fs16 \cell}{\fs16 Bomba\cell}{\fs16 \cell}{\fs16 1,5911\cell}{\fs16 \cell}{\fs16 \cell}{\fs16 -69,34\cell}{\fs16 \cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx567
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1134
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2450
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7700
+\pard \qr\intbl 
+{\fs16{\fs16 8\cell}{\fs16 9\cell}{\fs16 10\cell}{\fs16 \cell}{\fs16 \cell}{\fs16 \cell}{\fs16 1,5911\cell}{\fs16 32\cell}{\fs16 36\cell}{\fs16 0,068\cell}{\fs16 1,56*\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx567
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1134
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2450
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7700
+\pard \qr\intbl 
+{\fs16{\fs16 9\cell}{\fs16 10\cell}{\fs16 11\cell}{\fs16 0,38\cell}{\fs16 Acero\cell}{\fs16 120\cell}{\fs16 1,5911\cell}{\fs16 32\cell}{\fs16 36\cell}{\fs16 0,049\cell}{\fs16 1,56\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx567
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1134
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2450
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7700
+\pard \qr\intbl 
+{\fs16{\fs16 10\cell}{\fs16 14\cell}{\fs16 7\cell}{\fs16 3,81\cell}{\fs16 Acero\cell}{\fs16 120\cell}{\fs16 0\cell}{\fs16 32\cell}{\fs16 36\cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx567
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1134
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2450
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7700
+\pard \qr\intbl 
+{\fs16{\fs16 11\cell}{\fs16 14\cell}{\fs16 12\cell}{\fs16 0,16\cell}{\fs16 Acero\cell}{\fs16 120\cell}{\fs16 0\cell}{\fs16 32\cell}{\fs16 36\cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx567
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1134
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2450
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7700
+\pard \qr\intbl 
+{\fs16{\fs16 6\cell}{\fs16 11\cell}{\fs16 7\cell}{\fs16 2,5\cell}{\fs16 Acero\cell}{\fs16 120\cell}{\fs16 1,5911\cell}{\fs16 32\cell}{\fs16 36\cell}{\fs16 0,32\cell}{\fs16 1,56\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx567
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1134
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2450
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7700
+\pard \qr\intbl 
+{\fs16{\fs16 7\cell}{\fs16 10\cell}{\fs16 8\cell}{\fs16 3,81\cell}{\fs16 Acero\cell}{\fs16 120\cell}{\fs16 0\cell}{\fs16 32\cell}{\fs16 36\cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx567
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1134
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2450
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7700
+\pard \qr\intbl 
+{\fs16{\fs16 8\cell}{\fs16 10\cell}{\fs16 9\cell}{\fs16 0,16\cell}{\fs16 Acero\cell}{\fs16 120\cell}{\fs16 0\cell}{\fs16 32\cell}{\fs16 36\cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx567
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1134
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2450
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7700
+\pard \qr\intbl 
+{\fs16{\fs16 9\cell}{\fs16 13\cell}{\fs16 11\cell}{\fs16 3,81\cell}{\fs16 Acero\cell}{\fs16 120\cell}{\fs16 0\cell}{\fs16 32\cell}{\fs16 36\cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx567
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1134
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2450
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7700
+\pard \qr\intbl 
+{\fs16{\fs16 10\cell}{\fs16 13\cell}{\fs16 12\cell}{\fs16 0,16\cell}{\fs16 Acero\cell}{\fs16 120\cell}{\fs16 0\cell}{\fs16 32\cell}{\fs16 36\cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx567
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1134
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2450
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7700
+\pard \qr\intbl 
+{\fs16{\fs16 11\cell}{\fs16 16\cell}{\fs16 14\cell}{\fs16 3,81\cell}{\fs16 Acero\cell}{\fs16 120\cell}{\fs16 0\cell}{\fs16 32\cell}{\fs16 36\cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx567
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1134
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2450
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7700
+\pard \qr\intbl 
+{\fs16{\fs16 12\cell}{\fs16 16\cell}{\fs16 15\cell}{\fs16 0,16\cell}{\fs16 Acero\cell}{\fs16 120\cell}{\fs16 0\cell}{\fs16 32\cell}{\fs16 36\cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx567
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1134
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2450
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7700
+\pard \qr\intbl 
+{\fs16{\fs16 13\cell}{\fs16 19\cell}{\fs16 17\cell}{\fs16 3,81\cell}{\fs16 Acero\cell}{\fs16 120\cell}{\fs16 -1,5911\cell}{\fs16 32\cell}{\fs16 36\cell}{\fs16 0,487\cell}{\fs16 1,56\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx567
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1134
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2450
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7700
+\pard \qr\intbl 
+{\fs16{\fs16 14\cell}{\fs16 19\cell}{\fs16 18\cell}{\fs16 0,16\cell}{\fs16 Acero\cell}{\fs16 120\cell}{\fs16 1,5911\cell}{\fs16 32\cell}{\fs16 36\cell}{\fs16 0,021\cell}{\fs16 1,56\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx567
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1134
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2450
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7700
+\pard \qr\intbl 
+{\fs16{\fs16 15\cell}{\fs16 7\cell}{\fs16 8\cell}{\fs16 2,6\cell}{\fs16 Acero\cell}{\fs16 120\cell}{\fs16 1,5911\cell}{\fs16 32\cell}{\fs16 36\cell}{\fs16 0,332\cell}{\fs16 1,56\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx567
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1134
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2450
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7700
+\pard \qr\intbl 
+{\fs16{\fs16 16\cell}{\fs16 14\cell}{\fs16 17\cell}{\fs16 2,6\cell}{\fs16 Acero\cell}{\fs16 120\cell}{\fs16 1,5911\cell}{\fs16 32\cell}{\fs16 36\cell}{\fs16 0,332\cell}{\fs16 1,56\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx567
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1134
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2450
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7700
+\pard \qr\intbl 
+{\fs16{\fs16 17\cell}{\fs16 11\cell}{\fs16 14\cell}{\fs16 2,6\cell}{\fs16 Acero\cell}{\fs16 120\cell}{\fs16 1,5911\cell}{\fs16 32\cell}{\fs16 36\cell}{\fs16 0,332\cell}{\fs16 1,56\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx567
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1134
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2450
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6900
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7700
+\pard \qr\intbl 
+{\fs16{\fs16 18\cell}{\fs16 8\cell}{\fs16 11\cell}{\fs16 2,6\cell}{\fs16 Acero\cell}{\fs16 120\cell}{\fs16 1,5911\cell}{\fs16 32\cell}{\fs16 36\cell}{\fs16 0,332\cell}{\fs16 1,56\cell}}
+\pard \intbl\row
+\pard 
+\par 
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7500
+\pard \qc\intbl 
+{\fs16{\fs16 Nudo\cell}{\fs16 Cota(m)\cell}{\fs16 Factor K\cell}{\fs16 {\f1 f}(mm)\cell}{\fs16 H(mca)\cell}{\fs16 Pdin\'e1m. (mca)\cell}{\fs16 Pdin\'e1m. (bar)\cell}{\fs16 Pboquilla (bar)\cell}{\fs16 Caudal (l/s)\cell}{\fs16 Caudal (l/min)\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7500
+\pard \qr\intbl 
+{\fs16{\fs16 8\cell}{\fs16 0\cell}{\fs16 \cell}{\fs16 \cell}{\fs16 0\cell}{\fs16 0\cell}{\fs16 0\cell}{\fs16 \cell}{\fs16 -1,591\cell}{\fs16 -95,466\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7500
+\pard \qr\intbl 
+{\fs16{\fs16 9\cell}{\fs16 0\cell}{\fs16 \cell}{\fs16 \cell}{\fs16 69,34\cell}{\fs16 69,34\cell}{\fs16 6,798\cell}{\fs16 \cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7500
+\pard \qr\intbl 
+{\fs16{\fs16 10\cell}{\fs16 0\cell}{\fs16 \cell}{\fs16 \cell}{\fs16 69,27\cell}{\fs16 69,272\cell}{\fs16 6,791\cell}{\fs16 \cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7500
+\pard \qr\intbl 
+{\fs16{\fs16 11\cell}{\fs16 0\cell}{\fs16 \cell}{\fs16 \cell}{\fs16 69,22\cell}{\fs16 69,223\cell}{\fs16 6,787\cell}{\fs16 \cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7500
+\pard \qr\intbl 
+{\fs16{\fs16 12\cell}{\fs16 4\cell}{\fs16 42\cell}{\fs16 BIE 25\cell}{\fs16 68,9\cell}{\fs16 64,903\cell}{\fs16 6,363\cell}{\fs16 \cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7500
+\pard \qr\intbl 
+{\fs16{\fs16 14\cell}{\fs16 4\cell}{\fs16 \cell}{\fs16 \cell}{\fs16 68,9\cell}{\fs16 64,903\cell}{\fs16 6,363\cell}{\fs16 \cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7500
+\pard \qr\intbl 
+{\fs16{\fs16 7\cell}{\fs16 2,5\cell}{\fs16 \cell}{\fs16 \cell}{\fs16 68,9\cell}{\fs16 66,403\cell}{\fs16 6,51\cell}{\fs16 \cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7500
+\pard \qr\intbl 
+{\fs16{\fs16 8\cell}{\fs16 5,1\cell}{\fs16 \cell}{\fs16 \cell}{\fs16 68,57\cell}{\fs16 63,471\cell}{\fs16 6,223\cell}{\fs16 \cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7500
+\pard \qr\intbl 
+{\fs16{\fs16 9\cell}{\fs16 6,6\cell}{\fs16 42\cell}{\fs16 BIE 25\cell}{\fs16 68,57\cell}{\fs16 61,971\cell}{\fs16 6,076\cell}{\fs16 \cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7500
+\pard \qr\intbl 
+{\fs16{\fs16 10\cell}{\fs16 6,6\cell}{\fs16 \cell}{\fs16 \cell}{\fs16 68,57\cell}{\fs16 61,971\cell}{\fs16 6,076\cell}{\fs16 \cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7500
+\pard \qr\intbl 
+{\fs16{\fs16 11\cell}{\fs16 7,7\cell}{\fs16 \cell}{\fs16 \cell}{\fs16 68,24\cell}{\fs16 60,539\cell}{\fs16 5,935\cell}{\fs16 \cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7500
+\pard \qr\intbl 
+{\fs16{\fs16 12\cell}{\fs16 9,2\cell}{\fs16 42\cell}{\fs16 BIE 25\cell}{\fs16 68,24\cell}{\fs16 59,039\cell}{\fs16 5,788\cell}{\fs16 \cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7500
+\pard \qr\intbl 
+{\fs16{\fs16 13\cell}{\fs16 9,2\cell}{\fs16 \cell}{\fs16 \cell}{\fs16 68,24\cell}{\fs16 59,039\cell}{\fs16 5,788\cell}{\fs16 \cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7500
+\pard \qr\intbl 
+{\fs16{\fs16 14\cell}{\fs16 10,3\cell}{\fs16 \cell}{\fs16 \cell}{\fs16 67,91\cell}{\fs16 57,606\cell}{\fs16 5,648\cell}{\fs16 \cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7500
+\pard \qr\intbl 
+{\fs16{\fs16 15\cell}{\fs16 11,8\cell}{\fs16 42\cell}{\fs16 BIE 25\cell}{\fs16 67,91\cell}{\fs16 56,106\cell}{\fs16 5,501\cell}{\fs16 \cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7500
+\pard \qr\intbl 
+{\fs16{\fs16 16\cell}{\fs16 11,8\cell}{\fs16 \cell}{\fs16 \cell}{\fs16 67,91\cell}{\fs16 56,106\cell}{\fs16 5,501\cell}{\fs16 \cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7500
+\pard \qr\intbl 
+{\fs16{\fs16 17\cell}{\fs16 12,9\cell}{\fs16 \cell}{\fs16 \cell}{\fs16 67,57\cell}{\fs16 54,674\cell}{\fs16 5,36\cell}{\fs16 \cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7500
+\pard \qr\intbl 
+{\fs16{\fs16 18\cell}{\fs16 14,4\cell}{\fs16 42\cell}{\fs16 BIE 25\cell}{\fs16 67,07\cell}{\fs16 52,666*\cell}{\fs16 5,163*\cell}{\fs16 2\cell}{\fs16 1,591\cell}{\fs16 95,466\cell}}
+\pard \intbl\row
+\trowd \trgaph10\trleft5 
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1400
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3700
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4500
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5300
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6100
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx6800
+\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7500
+\pard \qr\intbl 
+{\fs16{\fs16 19\cell}{\fs16 14,4\cell}{\fs16 \cell}{\fs16 \cell}{\fs16 67,09\cell}{\fs16 52,687\cell}{\fs16 5,165\cell}{\fs16 \cell}{\fs16 0\cell}{\fs16 0\cell}}
+\pard \intbl\row
+\pard 
+\par \pard
+\par NOTA: 
+\par - * Rama de mayor velocidad o nudo de menor presi\'f3n din\'e1mica. 
+\par \pard
+\par Bomba 7, Caudal (l/s): 1,59; Presión (mca): 69,34 
+\par Caudal BIES (l/min): 95,47 
+\par Reserva BIES (l): 5.727,96 
+\par P m\'ednima BIES-Boquilla (bar): 2  ; Nudo: 18 
+\par
+\par
+\par }
