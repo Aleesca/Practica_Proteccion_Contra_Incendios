@@ -154,7 +154,7 @@ P_DMELECT = max(P_RO1, 1,5 bar)
 | Cuarto de servicios con baño incluido | 12,079 m² | 1 | 12,079 m² | 60,40 L/min | 0,57 bar | **1,50 bar** |
 | Escritorio | 9,430 m² | 1 | 9,430 m² | 47,15 L/min | 0,35 bar | **1,50 bar** |
 | Dormitorio (2 camas) | 11,149 m² | 1 | 11,149 m² | 55,75 L/min | 0,49 bar | **1,50 bar** |
-| Dormitorio principal | 21,963 m² | 1 | 21,963 m² | 109,82 L/min | 1,88 bar | **1,88 bar** |
+| Dormitorio principal | 21,963 m² | 1 | 21,963 m² | 109,82 L/min | 1,88 bar | **2,00 bar** |
 
 ### 6.2. Interpretación
 
@@ -166,7 +166,7 @@ El **diámetro de boquilla se mantiene igual en todas las estancias** porque se 
 
 La presión mínima no cambia el diámetro de la boquilla; solo representa la presión residual necesaria para que ese mismo rociador descargue el caudal requerido.
 
-Con el criterio de cálculo por densidad RO1, la única estancia que supera el mínimo comercial de **1,5 bar** es el **Dormitorio principal**, con **1,88 bar**. Si se adopta exclusivamente el punto comercial de ficha para cobertura ampliada 4,9 m x 4,9 m, se puede mantener **1,5 bar uniforme** para los rociadores de vivienda, siempre que se documente esa justificación comercial y ningún rociador supere los **24,01 m²** de cobertura.
+Con el criterio de cálculo por densidad RO1, la única estancia que supera el mínimo comercial de **1,5 bar** es el **Dormitorio principal**, con **1,88 bar** calculados. Para introducirlo en DMELECT se adopta **2,00 bar**, redondeando al alza como criterio de diseño del proyecto. Si se adopta exclusivamente el punto comercial de ficha para cobertura ampliada 4,9 m x 4,9 m, se puede mantener **1,5 bar uniforme** para los rociadores de vivienda, siempre que se documente esa justificación comercial y ningún rociador supere los **24,01 m²** de cobertura.
 
 ---
 
@@ -190,13 +190,13 @@ Presiones mínimas a introducir por estancia si se calcula con densidad RO1:
 | Cuarto de servicios con baño incluido | **1,50 bar** |
 | Escritorio | **1,50 bar** |
 | Dormitorio (2 camas) | **1,50 bar** |
-| Dormitorio principal | **1,88 bar** |
+| Dormitorio principal | **2,00 bar** |
 
 Conclusión práctica:
 
 - Para mantener el mismo diámetro de boquilla, lo decisivo es usar el mismo rociador **K=80 / 15 mm** en todas las estancias.
 - Si se quiere una entrada uniforme en DMELECT basada en ficha comercial, usar **1,5 bar** para vivienda completa.
-- Si se quiere recoger la comprobación por densidad RO1 estancia a estancia, usar **1,88 bar** en el dormitorio principal y **1,5 bar** en el resto.
+- Si se quiere recoger la comprobación por densidad RO1 estancia a estancia, usar **2,00 bar** en el dormitorio principal y **1,5 bar** en el resto; el valor de 2,00 bar procede de redondear al alza el cálculo **1,88 bar**.
 - El salón requiere **2 rociadores** por superar los 24,01 m² de cobertura del punto 4,9 m x 4,9 m.
 - La colocación final debe verificarse sobre plano: separación mínima entre rociadores **≥ 2,0 m** y distancia a paredes conforme a la justificación aplicable. Con UNE-EN 12845 estándar, la distancia normal a pared queda limitada a **2,0 m**; con cobertura ampliada, debe quedar respaldada por ficha/aprobación del fabricante.
 
