@@ -54,27 +54,59 @@ Para la protección contra incendios mediante BIEs en el edificio residencial se
 
 ---
 
-## 4. Rociadores Automáticos Seleccionados
+## 4. Rociadores Automáticos: Clasificación y Selección (Riesgo R01)
 
-Para las áreas del edificio protegidas mediante rociadores automáticos se prescriben los siguientes modelos en base a su aplicación y riesgo:
+Para la protección del edificio, clasificado bajo **Riesgo Ordinario Grupo 1 (RO1)**, se establece una estrategia de selección basada en la fiabilidad técnica y la proximidad industrial, priorizando al fabricante español **AG Fire Sprinkler (Komtes Group)**.
 
-### 4.1. Zonas Administrativas y Oficinas (Riesgo Ligero - RL)
-*   **Modelo Seleccionado:** **Viking VK302** (Pendant / Colgante).
-*   **Fabricante:** Viking Group Inc. ([vikinggroupinc.com](http://www.vikinggroupinc.com))
-*   **Especificaciones:** Factor K = 57 métrico. Conexión 1/2" NPT. Sensibilidad de **Respuesta Rápida** (RTI < 50) y temperatura de disparo de **68 °C** (ampolla roja).
-*   **Sistema:** Mojado (Tubería llena de agua).
+---
 
-### 4.2. Zonas Industriales y Salas Técnicas (Riesgo Ordinario - RO)
-*   **Modelo Seleccionado:** **Tyco TY-B** (TY3251 Pendant / TY3151 Upright).
-*   **Fabricante:** Tyco ([tyco-fire.com](https://www.tyco-fire.com/))
-*   **Especificaciones:** Factor K = 80 métrico. Conexión 1/2" NPT. Sensibilidad de **Respuesta Estándar** (RTI > 80) y temperatura de disparo de **68 °C** (o **93 °C** en salas técnicas con calor residual sin ventilación).
-*   **Sistema:** Mojado.
+### 4.1. Clasificación por Medio de Presurización
+Los sistemas se dividen según el estado del fluido en reposo dentro de la red ramificada:
 
-### 4.3. Zonas de Almacenamiento (Riesgo Extra de Almacenamiento - REA)
-*   **Modelo Seleccionado (En Techo - Supresión):** **Tyco ESFR-25** (TY8226 Pendant).
-    *   *Especificaciones*: Factor K = 363 métrico. Conexión 1" NPT. Sensibilidad de **Respuesta Rápida** con temperatura de disparo de **74 °C** (fusible). Diseñado para supresión precoz sin rociadores in-rack.
-    *   *Sistema*: Mojado únicamente.
-*   **Modelo Seleccionado (En Estanterías / In-rack):** **Viking VK202** (Pendant) o **Viking VK200** (Upright).
-    *   *Especificaciones*: Factor K = 115 métrico. Conexión 3/4" NPT. Configurado obligatoriamente con **Respuesta Rápida** según la Tabla 38 de la norma UNE-EN 12845.
-*   **Modelo Seleccionado (Zonas Frías / Cámaras de Congelación):** **Viking VK282** (Dry Pendant).
-    *   *Especificaciones*: Factor K = 115 métrico. Conexión 1" NPT con cuello seco para evitar la congelación del agua en tuberías. Sistema de tubería seca presurizada con aire/nitrógeno, con temperatura de disparo de **141 °C** (ampolla azul).
+1.  **Sistemas en contacto con Agua (Tubería Húmeda):** Es el sistema estándar para el edificio. La tubería permanece permanentemente llena de agua a presión. Al romperse el elemento termosensible del rociador, la descarga es inmediata.
+2.  **Sistemas en contacto con Aire/Nitrógeno (Tubería Seca/Supervisada):** Se emplean en zonas con riesgo de congelación (como rampas de garaje abiertas o zonas no calefactadas). La tubería contiene aire o nitrógeno presurizado; al activarse el rociador, se evacúa el aire, permitiendo que la válvula de puesto de control se abra y el agua llegue al punto de incendio.
+
+### 4.2. Tecnologías de Activación y Respuesta Térmica
+Se seleccionan componentes con tecnología de ampolla de vidrio termosensible:
+-   **Respuesta Normal (SR):** Ampolla de **5 mm**. RTI > 80. Adecuada para la mayoría de las áreas de Riesgo Ordinario (RO1).
+-   **Respuesta Rápida (QR):** Ampolla de **3 mm**. RTI < 50. Obligatoria en pasillos de evacuación y zonas de riesgo ligero (RL) donde se busca una detección y control ultrarrápido del conato.
+-   **Temperaturas de Disparo:**
+    -   **68 °C (Ampolla Roja):** Estándar para condiciones ambientales normales (máximo 38 °C ambiente).
+    -   **93 °C (Ampolla Verde):** Para salas técnicas o zonas con calor residual.
+
+### 4.3. Parámetros Técnicos de Diseño (Norma UNE-EN 12845)
+Para el riesgo **RO1** seleccionado, el diseño hidráulico y los equipos deben cumplir:
+-   **Densidad de diseño:** 5,0 mm/min.
+-   **Área de operación:** 72 m² (sistemas húmedos) / 90 m² (sistemas secos).
+-   **Factor K mínimo:** **K-80** (rosca 1/2" NPT).
+
+---
+
+### 4.4. Selección de Equipos: AG Fire Sprinkler (Komtes Group)
+Se prescribe el uso de la **Serie AG** de **AG Fire Sprinkler (Burgos, España)**, con certificaciones FM, UL y Marcado CE.
+
+#### 4.4.1. Rociadores de Techo (Configuración Pendent y Upright)
+-   **Modelo Colgante (Pendant): AG GA1111**
+    -   *Uso:* Instalación bajo techo técnico o forjado visto en oficinas y viviendas.
+    -   *Especificaciones:* Factor K=80. Rosca 1/2" NPT. Respuesta Normal (5mm). Acabado cromado o blanco RAL 9003.
+-   **Modelo Montante (Upright): AG GA1212**
+    -   *Uso:* Instalación sobre tubería en garajes o salas técnicas sin falso techo.
+    -   *Especificaciones:* Factor K=80. Rosca 1/2" NPT. Respuesta Normal (5mm). Acabado bronce o cromado.
+
+#### 4.4.2. Rociadores de Pared (Sidewall)
+-   **Modelo Horizontal: AG GA5670 / GA5626**
+    -   *Uso:* Zonas donde la red de tuberías se sitúa en paramentos verticales, manteniendo la estética del techo libre de obstáculos.
+    -   *Especificaciones:* Factor K=80. Respuesta Normal. Certificados para Riesgo Ordinario (RO).
+
+#### 4.4.3. Rociadores de Cobertura Extendida (Específicos para Pasillos)
+-   **Modelo Horizontal Sidewall: AG DH80 (Serie R)**
+    -   *Uso:* Pasillos largos y zonas estrechas de Riesgo Ligero (RL).
+    -   *Ventaja:* Su diseño de cobertura extendida permite cubrir áreas de hasta 8,5 m x 4,3 m con un solo rociador, reduciendo significativamente el número de puntos de descarga y metros de tubería.
+    -   *Especificaciones:* Factor K=115. Rosca 3/4" NPT. **Respuesta Rápida (3mm)**. Presión de trabajo hasta 17,2 bar.
+
+---
+
+### 4.5. Justificación de la Selección
+1.  **Origen Nacional:** Al igual que con las BIEs de IMP, la elección de AG Fire Sprinkler garantiza soporte técnico local, disponibilidad inmediata de repuestos y cumplimiento estricto con la normativa española de industria.
+2.  **Optimización por Cobertura Extendida:** El uso del modelo DH80 en pasillos residenciales permite una protección superior con menor impacto estético y económico.
+3.  **Versatilidad de Sistemas:** Todos los modelos seleccionados son aptos para trabajar tanto en redes húmedas como secas (tras válvula de control), lo que simplifica la gestión de inventario y mantenimiento del edificio.
