@@ -101,3 +101,11 @@ Para maximizar la seguridad y simplificar el mantenimiento del edificio, se pres
 1.  **Versatilidad Total:** El modelo GA1311 combina la sensibilidad necesaria para viviendas (QR) con la potencia de área necesaria para pasillos (EC), eliminando la necesidad de gestionar dos referencias distintas.
 2.  **Seguridad en Evacuación:** La instalación de este modelo en las zonas comunes (pasillos) junto a las BIEs asegura que el camino hacia las salidas de emergencia esté protegido automáticamente desde el primer indicio de fuego.
 3.  **Eficiencia de Instalación:** Al ser de cobertura extendida, se reduce el número de cabezales instalados en el techo y los metros de tubería ramificada, lo que compensa el mayor coste unitario del equipo.
+
+## Archivos relacionados
+
+- [superficie-rociadores.md](superficie-rociadores.md): Criterios de superficie, riesgo y cobertura para rociadores.
+- [presion-minima-rociador-dmelect.md](presion-minima-rociador-dmelect.md): Parámetros de presión del rociador RA2845 en DMELECT.
+- [justificacion_economica_rociador_unico.md](justificacion_economica_rociador_unico.md): Argumento técnico y económico para usar un único rociador.
+- [resultados_calculos_BIE.md](resultados_calculos_BIE.md): Datos hidráulicos base de la red de BIE.
+- [justificacion_simultaneidad_BIEs.md](justificacion_simultaneidad_BIEs.md): Criterio de simultaneidad para las dos BIEs desfavorables.

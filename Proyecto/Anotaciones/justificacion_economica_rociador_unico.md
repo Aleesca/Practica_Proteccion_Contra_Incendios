@@ -35,3 +35,10 @@ Para ser rigurosos en el cálculo, el uso de este rociador único tiene una úni
 *   Al poner este rociador en el baño más alejado de la última planta (el nudo más desfavorable), el software nos obligará a garantizar esa presión alta allí, lo que requerirá un **grupo de bombeo (Bomba PCI) ligeramente más potente**.
 
 **Conclusión Económica:** El leve incremento en el precio de la bomba principal se amortiza sobradamente con el enorme ahorro en metros de tubería, piezas especiales y cientos de horas de mano de obra al reducir los puntos de descarga en todas las plantas del edificio. Por tanto, el modelo **AG GA1311** es la opción más económica, segura y versátil.
+
+## Archivos relacionados
+
+- [catalogos-bies-rociadores.md](catalogos-bies-rociadores.md): Selección técnica de BIEs y rociadores.
+- [presion-minima-rociador-dmelect.md](presion-minima-rociador-dmelect.md): Penalización hidráulica del rociador de cobertura extendida.
+- [superficie-rociadores.md](superficie-rociadores.md): Superficies protegidas y límites de cobertura.
+- [areas.md](areas.md): Superficies por estancia usadas en la estimación.

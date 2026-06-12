@@ -135,3 +135,10 @@ Caudal BIES (l/min): 95,47
 Reserva BIES (I): 5.727,96
 
 P mínima BIES-Boquilla (bar): 2 ; Nudo: 18
+
+## Archivos relacionados
+
+- [informe_revision_calculos_bie.md](informe_revision_calculos_bie.md): Auditoría técnica de estos resultados.
+- [justificacion_simultaneidad_BIEs.md](justificacion_simultaneidad_BIEs.md): Justificación del cálculo con dos BIEs abiertas.
+- [sobre_altura_cotas.md](sobre_altura_cotas.md): Lectura de cotas, nudos y montante vertical.
+- [catalogos-bies-rociadores.md](catalogos-bies-rociadores.md): Selección de equipos relacionada con los parámetros hidráulicos.

@@ -1,7 +1,7 @@
 # INFORME DE REVISIÓN DE CÁLCULOS DE LA RED DE BIE
 
-> **Origen**: Solicitud de revisión del archivo [resultados_calculos_BIE.md](file:///H:/Unidades%20compartidas/Practicas_Inst2/7_Proteccion_contra_incendios/Proyecto/Anotaciones/resultados_calculos_BIE.md)  
-> **Plan de Referencia**: [plan_revision_resultados_calculos_bie.md](file:///H:/Unidades%20compartidas/Practicas_Inst2/7_Proteccion_contra_incendios/Proyecto/Planificacion/plan_revision_resultados_calculos_bie.md)
+> **Origen**: Solicitud de revisión del archivo [resultados_calculos_BIE.md](resultados_calculos_BIE.md)  
+> **Plan de Referencia**: [plan_revision_resultados_calculos_bie.md](../Planificacion/plan_revision_resultados_calculos_bie.md)
 
 ---
 
@@ -138,3 +138,10 @@ Los resultados actuales del anexo de cálculos **no cumplen** con las exigencias
 
 4. **Redimensionado del Grupo de Bombeo**:
    * Tras el cálculo de simultaneidad, comprobar la nueva curva de trabajo de la bomba. El caudal requerido del grupo pasará a ser de **3,18 l/s** (190,9 l/min) y la presión nominal requerida a la salida de la bomba probablemente deba aumentar de los $6,8\text{ bar}$ actuales para vencer las nuevas pérdidas por fricción incrementadas y mantener la presión dinámica en la boquilla más desfavorable (nudo 18) por encima de los 2 bar dinámicos reglamentarios.
+
+## Archivos relacionados
+
+- [resultados_calculos_BIE.md](resultados_calculos_BIE.md): Resultados originales auditados en este informe.
+- [justificacion_simultaneidad_BIEs.md](justificacion_simultaneidad_BIEs.md): Desarrollo técnico de la incidencia de simultaneidad.
+- [sobre_altura_cotas.md](sobre_altura_cotas.md): Interpretación de cotas, nudos y montantes.
+- [catalogos-bies-rociadores.md](catalogos-bies-rociadores.md): Selección de equipos vinculada a la revisión hidráulica.

@@ -1,6 +1,6 @@
 # JUSTIFICACIÓN TÉCNICA DE LA SIMULTANEIDAD Y LA BIE MÁS DESFAVORABLE
 
-> **Ubicación**: [Proyecto/Anotaciones/justificacion_simultaneidad_BIEs.md](file:///H:/Unidades%20compartidas/Practicas_Inst2/7_Proteccion_contra_incendios/Proyecto/Anotaciones/justificacion_simultaneidad_BIEs.md)  
+> **Ubicación**: [Proyecto/Anotaciones/justificacion_simultaneidad_BIEs.md](justificacion_simultaneidad_BIEs.md)  
 > **Tema**: Justificación hidráulica y normativa de la apertura de dos Bocas de Incendio Equipadas (BIE 25) en un edificio con una BIE por planta.
 
 ---
@@ -77,3 +77,10 @@ Para subsanar esta deficiencia en el modelo de cálculo:
 1. **Modificar demandas**: Configurar la BIE del Nudo 15 (cota 11.8m) para que esté activa (demanda abierta) al mismo tiempo que la BIE del Nudo 18 (cota 14.4m).
 2. **Dimensionar el grupo de presión**: Ajustar el caudal de diseño de la bomba a un mínimo de **$3,18\text{ l/s}$** ($190,9\text{ l/min}$) y verificar que la altura manométrica ($H$) de la bomba garantiza la presión mínima de $2\text{ bar}$ en punta de lanza en el Nudo 18 y el Nudo 15.
 3. **Modificar la reserva en la memoria**: Indicar un volumen mínimo de acumulación de agua de **12.000 litros**.
+
+## Archivos relacionados
+
+- [resultados_calculos_BIE.md](resultados_calculos_BIE.md): Cálculo base con una sola BIE activa.
+- [informe_revision_calculos_bie.md](informe_revision_calculos_bie.md): Informe que marca la simultaneidad como incidencia crítica.
+- [sobre_altura_cotas.md](sobre_altura_cotas.md): Contexto de cotas para identificar las BIEs desfavorables.
+- [catalogos-bies-rociadores.md](catalogos-bies-rociadores.md): Características de la BIE seleccionada.

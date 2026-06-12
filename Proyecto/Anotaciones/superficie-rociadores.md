@@ -65,3 +65,11 @@ Esta superficie si sirve para:
 - Verificar que la superficie protegida por un puesto de control queda por debajo de los limites normativos aplicables.
 
 El numero final de rociadores se calculara solo cuando se haya fijado la clase de riesgo y se haya dibujado la distribucion real sobre el plano, porque las habitaciones, pasillos, paredes, obstaculos y distancias maximas pueden aumentar el numero respecto a una division directa de superficie entre cobertura maxima.
+
+## Archivos relacionados
+
+- [areas.md](areas.md): Superficies por estancia que complementan la superficie total.
+- [presion-minima-rociador-dmelect.md](presion-minima-rociador-dmelect.md): Presión y número de rociadores derivados de la superficie.
+- [catalogos-bies-rociadores.md](catalogos-bies-rociadores.md): Selección de rociadores según riesgo y cobertura.
+- [justificacion_economica_rociador_unico.md](justificacion_economica_rociador_unico.md): Justificación de modelo único sobre las superficies protegidas.
+- [sobre_altura_cotas.md](sobre_altura_cotas.md): Relación entre distribución de rociadores y referencia vertical.

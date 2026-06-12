@@ -20,3 +20,10 @@ Por tanto, si el colector vertical nace en el sótano, lo lógico es que esa mon
 - En el perfil, comprueba que el primer nudo del colector del BIE/rociador esté asignado al colector vertical correcto y no esté heredando otra planta. [dmelect](https://dmelect.com/centro-de-ayuda/preguntas-frecuentes-generales/)
 
 En resumen: **cota 0 puede estar bien**, pero solo si coincide con tu referencia de edificio; para el BIE y el rociador lo decisivo es que la **montante vertical** esté bien asociada desde el sótano y no desde una planta superior. [dit.ietcc.csic](https://dit.ietcc.csic.es/wp-content/uploads/2020/02/Comunicado-web-PPR-BIEs-y-Rociadores.pdf)
+
+## Archivos relacionados
+
+- [resultados_calculos_BIE.md](resultados_calculos_BIE.md): Cotas y presiones calculadas en la red BIE.
+- [informe_revision_calculos_bie.md](informe_revision_calculos_bie.md): Incidencias de nudos, cotas y trazabilidad.
+- [justificacion_simultaneidad_BIEs.md](justificacion_simultaneidad_BIEs.md): Uso de las cotas para localizar BIEs desfavorables.
+- [presion-minima-rociador-dmelect.md](presion-minima-rociador-dmelect.md): Presión mínima de rociadores en relación con los nudos.

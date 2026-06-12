@@ -199,3 +199,11 @@ Conclusión práctica:
 - Si se quiere recoger la comprobación por densidad RO1 estancia a estancia, usar **1,88 bar** en el dormitorio principal y **1,5 bar** en el resto.
 - El salón requiere **2 rociadores** por superar los 24,01 m² de cobertura del punto 4,9 m x 4,9 m.
 - La colocación final debe verificarse sobre plano: separación mínima entre rociadores **≥ 2,0 m** y distancia a paredes conforme a la justificación aplicable. Con UNE-EN 12845 estándar, la distancia normal a pared queda limitada a **2,0 m**; con cobertura ampliada, debe quedar respaldada por ficha/aprobación del fabricante.
+
+## Archivos relacionados
+
+- [areas.md](areas.md): Superficies por estancia utilizadas en la tabla de cálculo.
+- [superficie-rociadores.md](superficie-rociadores.md): Clase de riesgo, densidad de diseño y cobertura máxima.
+- [catalogos-bies-rociadores.md](catalogos-bies-rociadores.md): Identificación del modelo RA2845 y parámetros del rociador.
+- [justificacion_economica_rociador_unico.md](justificacion_economica_rociador_unico.md): Motivo técnico-económico para mantener un único modelo.
+- [sobre_altura_cotas.md](sobre_altura_cotas.md): Relación entre presión residual y asignación vertical de nudos.
