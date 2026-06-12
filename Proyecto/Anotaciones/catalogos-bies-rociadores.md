@@ -82,31 +82,22 @@ Para el riesgo **RO1** seleccionado, el diseño hidráulico y los equipos deben 
 
 ---
 
-### 4.4. Selección de Equipos: AG Fire Sprinkler (Komtes Group)
-Se prescribe el uso de la **Serie AG** de **AG Fire Sprinkler (Burgos, España)**, con certificaciones FM, UL y Marcado CE.
+### 4.4. Selección de Rociador Universal Residencial: AG GA1311 (Techo)
+Para maximizar la seguridad y simplificar el mantenimiento del edificio, se prescribe un **único modelo de rociador versátil** para todas las áreas (viviendas y zonas comunes). El modelo elegido es de tipo **Pendent (Colgante)** para instalación en techo.
 
-#### 4.4.1. Rociadores de Techo (Configuración Pendent y Upright)
--   **Modelo Colgante (Pendant): AG GA1111**
-    -   *Uso:* Instalación bajo techo técnico o forjado visto en oficinas y viviendas.
-    -   *Especificaciones:* Factor K=80. Rosca 1/2" NPT. Respuesta Normal (5mm). Acabado cromado o blanco RAL 9003.
--   **Modelo Montante (Upright): AG GA1212**
-    -   *Uso:* Instalación sobre tubería en garajes o salas técnicas sin falso techo.
-    -   *Especificaciones:* Factor K=80. Rosca 1/2" NPT. Respuesta Normal (5mm). Acabado bronce o cromado.
-
-#### 4.4.2. Rociadores de Pared (Sidewall)
--   **Modelo Horizontal: AG GA5670 / GA5626**
-    -   *Uso:* Zonas donde la red de tuberías se sitúa en paramentos verticales, manteniendo la estética del techo libre de obstáculos.
-    -   *Especificaciones:* Factor K=80. Respuesta Normal. Certificados para Riesgo Ordinario (RO).
-
-#### 4.4.3. Rociadores de Cobertura Extendida (Específicos para Pasillos)
--   **Modelo Horizontal Sidewall: AG DH80 (Serie R)**
-    -   *Uso:* Pasillos largos y zonas estrechas de Riesgo Ligero (RL).
-    -   *Ventaja:* Su diseño de cobertura extendida permite cubrir áreas de hasta 8,5 m x 4,3 m con un solo rociador, reduciendo significativamente el número de puntos de descarga y metros de tubería.
-    -   *Especificaciones:* Factor K=115. Rosca 3/4" NPT. **Respuesta Rápida (3mm)**. Presión de trabajo hasta 17,2 bar.
+-   **Modelo Unificado: RA2845 (Quick Respond & Light Hazard - K80)** ([Página de Producto - AG Fire Sprinkler](https://agfiresprinkler.com/categoria-producto/sprinklers/extended-coverage-light-hazard-sprinklers-2/pendent-sprinklers-13/))
+    -   **Uso en Viviendas y Pasillos:** Es el modelo más equilibrado para todo el edificio. Su **Respuesta Rápida** protege las vidas en el interior de las viviendas, y su diseño de **Cobertura Extendida** optimiza la instalación en los pasillos comunes (zonas donde se ubican las BIEs).
+    -   **Especificaciones Técnicas:**
+        -   **Identificación (SIN):** RA2845.
+        -   **Factor K:** 80 (unidades métricas: $L/min/\sqrt{bar}$) / [5.6 imperial].
+        -   **Orificio nominal / diámetro de boquilla:** 1/2" (15 mm), según ficha técnica.
+        -   **Diámetro de la rosca:** 1/2" NPT (R1/2).
+        -   **Tecnología:** Respuesta Rápida (Ampolla de 3mm) y Cobertura Extendida (ECLH).
+        -   **Instalación:** Techo (Pendent).
 
 ---
 
-### 4.5. Justificación de la Selección
-1.  **Origen Nacional:** Al igual que con las BIEs de IMP, la elección de AG Fire Sprinkler garantiza soporte técnico local, disponibilidad inmediata de repuestos y cumplimiento estricto con la normativa española de industria.
-2.  **Optimización por Cobertura Extendida:** El uso del modelo DH80 en pasillos residenciales permite una protección superior con menor impacto estético y económico.
-3.  **Versatilidad de Sistemas:** Todos los modelos seleccionados son aptos para trabajar tanto en redes húmedas como secas (tras válvula de control), lo que simplifica la gestión de inventario y mantenimiento del edificio.
+### 4.5. Justificación de la Selección Unificada
+1.  **Versatilidad Total:** El modelo GA1311 combina la sensibilidad necesaria para viviendas (QR) con la potencia de área necesaria para pasillos (EC), eliminando la necesidad de gestionar dos referencias distintas.
+2.  **Seguridad en Evacuación:** La instalación de este modelo en las zonas comunes (pasillos) junto a las BIEs asegura que el camino hacia las salidas de emergencia esté protegido automáticamente desde el primer indicio de fuego.
+3.  **Eficiencia de Instalación:** Al ser de cobertura extendida, se reduce el número de cabezales instalados en el techo y los metros de tubería ramificada, lo que compensa el mayor coste unitario del equipo.
