@@ -174,3 +174,17 @@
 	\cleardoublepage
 }
 
+% --- Secciones especiales para Anexo 1 (Características técnicas) ---
+\newcommand{\sectiontech}[1]{%
+    \cleardoublepage
+    \thispagestyle{empty}
+    \vspace*{\fill}
+    \begin{center}
+        \parbox{0.96\textwidth}{\centering\fontsize{24pt}{28.8pt}\selectfont\bfseries #1\par}
+    \end{center}
+    \vspace*{\fill}
+    \addcontentsline{toc}{subsection}{#1}
+    \cleardoublepage
+}
+
+
