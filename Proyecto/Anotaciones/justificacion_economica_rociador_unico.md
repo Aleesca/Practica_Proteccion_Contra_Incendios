@@ -1,44 +1,45 @@
-# Justificación Técnica y Económica: Selección de Rociador Único (AG GA1311)
+# Justificación Técnica y Económica: Selección de Rociador Único (Tyco Series EC-11)
 
 **Referencia:** Análisis derivado de las optimizaciones requeridas en `ANOTACIONES_PRACTICA.pdf`.
-**Asunto:** Justificación del uso de un rociador de Cobertura Extendida (EC) de 36 m² en espacios reducidos (10-20 m²) y su impacto económico global en la instalación de PCI del edificio residencial.
+**Asunto:** Justificación del uso de un rociador de Cobertura Extendida para Riesgo Ordinario (**ECOH**) con soporte y homologación europea.
 
 ---
 
-## 1. El falso mito del "Sobredimensionamiento"
+## 1. El mito del "Sobredimensionamiento"
 
-Al observar que el modelo **AG GA1311** tiene una capacidad de cobertura de hasta 36 m², es intuitivo pensar que colocarlo en una habitación de 10 m² o 20 m² supone un sobredimensionamiento ineficiente. Sin embargo, en el diseño de redes de rociadores, el comportamiento es diferente:
+Al observar que el modelo **Tyco Series EC-11 (SIN TY5237)** tiene una capacidad de cobertura de hasta 37,2 m² (20 ft x 20 ft), es intuitivo pensar que colocarlo en una habitación pequeña supone un sobredimensionamiento. Sin embargo:
 
-*   **Hidráulicamente:** El rociador no "gasta" más agua por estar en un cuarto pequeño. Descarga el caudal que le dicta la presión de la red en ese nudo.
-*   **Físicamente:** En una habitación de 10 m², el patrón de agua alcanzará las paredes casi de inmediato. Esto produce un efecto conocido como *wall wetting* (mojado de paredes), el cual es altamente deseable en protección contra incendios porque enfría los paramentos y evita que el fuego se propague a las habitaciones colindantes.
+*   **Hidráulicamente:** El rociador descarga el caudal dictado por la presión en ese nudo. Al tener un **Factor K=161.3**, la presión necesaria en punta para cumplir con la hipótesis de densidad de Riesgo Ordinario (RO1) es mínima (**0,8 bar**).
+*   **Físicamente:** En habitaciones pequeñas, el patrón de agua enfría los paramentos (*wall wetting*), evitando la propagación del fuego a estancias colindantes y mejorando la protección estructural.
 
-## 2. Análisis Económico: ¿Por qué es la opción más barata?
+---
 
-La decisión de unificar todo el edificio con el modelo **AG GA1311 (Cobertura Extendida y Respuesta Rápida)** se basa en una optimización global de costes, donde el ahorro en la instalación supera con creces cualquier sobrecoste del equipo.
+## 2. Análisis Económico: ¿Por qué es la opción más eficiente?
 
-### A. Reducción drástica de Mano de Obra y Tubería (El mayor coste)
-El mayor gasto en una instalación de PCI no son las cabezas de los rociadores, sino **la mano de obra, los metros de tubería de acero y los accesorios (codos, tes, manguitos)**. 
-*   Al usar un rociador de Cobertura Extendida en los salones y pasillos comunes, **se reduce hasta en un 50% el número de rociadores** en esas zonas. 
-*   Menos rociadores significa menos ramales que soldar o ranurar, menos soportes al techo y muchísimo menos tiempo de instalación por planta.
+La decisión de unificar todo el edificio con el modelo **Tyco Series EC-11 (SIN TY5237)** fabricado y distribuido bajo el marco normativo de **Tyco Fire Protection Products** (Johnson Controls) se basa en una optimización global de costes y riesgos:
 
-### B. Economía de Escala (Unificación de Compras)
-*   Comprar 500 unidades de un solo modelo (GA1311) permite negociar mejores descuentos con el proveedor (AG Fire Sprinkler) que comprar 300 de un modelo estándar y 200 de uno extendido.
-*   **Repuestos y Mantenimiento:** El edificio solo necesitará almacenar un tipo de rociador de repuesto y una sola llave de montaje. Las tapas embellecedoras serán idénticas en todas las estancias, mejorando la estética y abaratando su coste.
+### A. Ahorro en Tubería y Puntos de Descarga (Extended Coverage)
+*   **Reducción de Puntos:** Al usar tecnología de cobertura extendida (hasta 24,01 m² de cobertura frente a los 12 m² máximos de un rociador estándar), se reduce a la mitad el número de rociadores, accesorios y ramales de tuberías necesarios en estancias grandes (salones) y pasillos.
+*   **Coste de Instalación (CAPEX):** Menos puntos a instalar equivalen a menos horas de mano de obra y menor coste de material de montaje.
 
-### C. Prevención de Errores de Ejecución
-Tener un modelo mixto (pequeños para habitaciones, extendidos para pasillos) genera un riesgo alto en obra: si el instalador intercambia los rociadores por error, el pasillo quedará desprotegido (un rociador estándar no llegará a cubrirlo) y la inspección obligará a desmontar el techo y repetir la instalación. Unificar el modelo elimina este riesgo a coste cero.
+### B. Legalidad Normativa y Confiabilidad Técnica (Anexo L)
+*   **Homologación de Prestigio Real:** Tyco es uno de los líderes mundiales en protección contra incendios. Contar con un modelo real, verificado y con ficha técnica publicada en su portal oficial ([Portal de Documentación Tyco TFP220](https://docs.jci.com/tycofire/tfp220)) y en su web ([Tyco Fire Products Homepage](https://www.tyco-fire.com/)) blinda el proyecto ante auditorías, inspecciones de industria y aseguradoras (gracias a sus sellos CE, cULus y FM).
+*   **Evitación de Re-diseño de Diámetros:** Al mantener la clasificación de **Riesgo Ordinario 1 (RO1)** justificada por este modelo, se simulan únicamente 3 rociadores activos simultáneos. Esto evita tener que rediseñar los diámetros de acero tramo a tramo (lo que ocurriría si se cambiara a Riesgo Ligero, exigiendo 4 rociadores activos por área de operación).
 
-## 3. La "Penalización" Hidráulica a considerar
+### C. Eficiencia Hidráulica Extrema
+*   La presión mínima residual de **0,8 bar** (0,83 bar nominal) reduce drásticamente la presión dinámica requerida en los nudos desfavorables en comparación con el modelo K80 original (que requería 2,25 bar). Esto permite seleccionar un grupo de bombeo PCI de menor potencia y coste, reduciendo tanto el coste de adquisición del equipo como el consumo eléctrico del edificio.
 
-Para ser rigurosos en el cálculo, el uso de este rociador único tiene una única contrapartida que debe asumirse en el diseño de DMelect/CYPE:
-*   Los rociadores de Cobertura Extendida exigen una **presión mínima de trabajo mayor** (aprox. 1.5 a 2.0 bar) que los estándar (aprox. 0.5 bar) para poder lanzar el agua tan lejos.
-*   Al poner este rociador en el baño más alejado de la última planta (el nudo más desfavorable), el software nos obligará a garantizar esa presión alta allí, lo que requerirá un **grupo de bombeo (Bomba PCI) ligeramente más potente**.
+---
 
-**Conclusión Económica:** El leve incremento en el precio de la bomba principal se amortiza sobradamente con el enorme ahorro en metros de tubería, piezas especiales y cientos de horas de mano de obra al reducir los puntos de descarga en todas las plantas del edificio. Por tanto, el modelo **AG GA1311** es la opción más económica, segura y versátil.
+## 3. Conclusión Económica
+
+La unificación al modelo **Tyco TY5237** es la solución más coherente y segura para este proyecto residencial. Combina el cumplimiento normativo estricto bajo **RO1 (UNE-EN 12845)** con el respaldo de un fabricante de primer nivel plenamente establecido en España y Europa, logrando un rendimiento hidráulico óptimo y menores costes globales de ejecución y mantenimiento del sistema.
+
+---
 
 ## Archivos relacionados
 
 - [catalogos-bies-rociadores.md](catalogos-bies-rociadores.md): Selección técnica de BIEs y rociadores.
-- [presion-minima-rociador-dmelect.md](presion-minima-rociador-dmelect.md): Penalización hidráulica del rociador de cobertura extendida.
+- [presion-minima-rociador-dmelect.md](presion-minima-rociador-dmelect.md): Presiones de cálculo y parámetros hidráulicos.
 - [superficie-rociadores.md](superficie-rociadores.md): Superficies protegidas y límites de cobertura.
-- [areas.md](areas.md): Superficies por estancia usadas en la estimación.
+- [coberturas_limites_rociadores.md](coberturas_limites_rociadores.md): Justificación normativa bajo UNE-EN 12845.

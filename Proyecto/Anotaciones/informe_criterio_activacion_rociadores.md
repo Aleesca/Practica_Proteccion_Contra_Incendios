@@ -19,15 +19,15 @@ El número de rociadores a activar en DMelect se obtiene dividiendo el área de 
 - `72 m² / 12 m² = 6 rociadores`.
 - Es el valor por defecto en DMelect para RO1.
 
-### Caso B: Rociador de cobertura extendida RA2845 (Cobertura ~24 m²)
+### Caso B: Rociador de cobertura extendida Tyco TY5237 (Cobertura ~24 m²)
 - `72 m² / 24,01 m² = 2,99 ≈ 3 rociadores`.
 - Debido a la mayor eficiencia de cobertura, el incendio de diseño se contiene con menos puntos de descarga, pero manteniendo el caudal total proporcional al área de 72 m².
 
 ## 4. Procedimiento Operativo en DMelect
 1. Identificar el ramal hidráulicamente más remoto en la última planta.
-2. Seleccionar los **3 rociadores** (si se usa RA2845) o **6 rociadores** (si se usa estándar) situados al final de dicho ramal y ramales adyacentes hasta cubrir el área de **72 m²**.
+2. Seleccionar los **3 rociadores** (si se usa Tyco TY5237) o **6 rociadores** (si se usa estándar) situados al final de dicho ramal y ramales adyacentes hasta cubrir el área de **72 m²**.
 3. En las propiedades de estos nudos, marcarlos como "en funcionamiento simultáneo".
-4. Verificar que la presión residual en el rociador más desfavorable cumple con el mínimo requerido (1,5 bar para RA2845 o el valor derivado del cálculo por densidad).
+4. Verificar que la presión residual en el rociador más desfavorable cumple con el mínimo requerido (0,8 bar para Tyco TY5237 o el valor derivado del cálculo por densidad).
 
 ## 5. Conclusión para la Memoria
 La activación de **3/6 rociadores** en la zona remota de la última planta es el criterio técnicamente correcto porque:

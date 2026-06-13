@@ -45,12 +45,15 @@ Por tanto, queda pendiente esta comprobacion:
 
 Una vez determinada la clase de riesgo, se consultan los parametros de diseno. Para las clases previsibles en este caso:
 
-| Clase | Densidad de diseno | Area de operacion, sistema mojado | Cobertura maxima por rociador | Separacion maxima normal |
-| --- | ---: | ---: | ---: | ---: |
-| RL | 2,25 mm/min | 84 m2 | 21,0 m2/rociador | 4,6 m |
-| RO1 | 5,0 mm/min | 72 m2 | 12,0 m2/rociador | 4,0 m |
+| Clase | Densidad de diseño | Área de operación (húmedo) | Cobertura estándar | Cobertura Ampliada (Anexo L) |
+| :--- | :---: | :---: | :---: | :---: |
+| **RL** | 2,25 mm/min | 84 m2 | 21,0 m2 | No aplica |
+| **RO1** | 5,0 mm/min | 72 m2 | 12,0 m2 | **24,01 m²** (Tyco TY5237) |
 
-Ademas, para la separacion entre rociadores debe respetarse la distancia minima normativa de 2,0 m, salvo medidas especificas para evitar que rociadores adyacentes se mojen entre si.
+### Nota sobre Cobertura Ampliada (ECOH)
+Para el proyecto se adopta la **Tecnología Especial (Anexo L)** mediante el uso del rociador **Tyco Series EC-11 (SIN TY5237)** de cobertura extendida (ECOH). Esto permite duplicar la cobertura estándar en RO1 (de 12 m² a 24 m²), optimizando la red de tuberías y manteniendo la legalidad técnica mediante la certificación específica de la ficha técnica del fabricante (**Data Sheet TFP220**) para Riesgo Ordinario. Su factor K=161,3 (11,2 U.S.) y presión mínima de diseño de **0,8 bar** (0,83 bar nominal) representan la opción óptima para reducir las exigencias del grupo de presión.
+
+Ademas, para la separación entre rociadores debe respetarse la distancia mínima normativa de 2,0 m, salvo medidas específicas para evitar que rociadores adyacentes se mojen entre si.
 
 ## Uso de la superficie de 270,882 m2
 

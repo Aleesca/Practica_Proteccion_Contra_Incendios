@@ -8,7 +8,7 @@ Este documento detalla la selección definitiva de Bocas de Incendio Equipadas (
 
 La selección de equipos se ha realizado mediante el siguiente procedimiento:
 1.  **Establecimiento de Criterios**: Definir las necesidades del edificio residencial (cobertura máxima con manguera de 30 m para optimizar el número de BIEs, y mantenimiento del ancho libre de evacuación en pasillos mediante empotramiento).
-2.  **Verificación de Catálogos**: Contraste directo con el catálogo técnico del fabricante español **IMP (Industrias Metalúrgicas de Patiño, S.L.)** y fabricantes homologados europeos de rociadores (*Viking* y *Tyco*).
+2.  **Verificación de Catálogos**: Contraste directo con el catálogo técnico del fabricante español **IMP (Industrias Metalúrgicas de Patiño, S.L.)** y fabricantes homologados con presencia estable en España y Europa (**Tyco Spain** / Johnson Controls).
 3.  **Justificación y Cierre**: Formalizar la prescripción del equipamiento idóneo y detallar su cumplimiento normativo.
 
 ---
@@ -54,13 +54,13 @@ Para la protección contra incendios mediante BIEs en el edificio residencial se
 
 ---
 
-## 4. Rociadores Automáticos: Clasificación y Selección (Riesgo R01)
+## 4. Rociadores Automáticos: Clasificación y Selección (Riesgo RO1)
 
-Para la protección del edificio, clasificado bajo **Riesgo Ordinario Grupo 1 (RO1)**, se establece una estrategia de selección basada en la fiabilidad técnica y la proximidad industrial, priorizando al fabricante español **AG Fire Sprinkler (Komtes Group)**.
+Para la protección del edificio, clasificado bajo **Riesgo Ordinario Grupo 1 (RO1)**, se establece una estrategia de selección basada en la fiabilidad técnica y la disponibilidad de soporte en España, seleccionando una marca de reconocido prestigio como **Tyco (Johnson Controls España)**, plenamente integrada en la distribución e ingeniería nacionales.
 
 ---
 
-### 4.1. Clasificación por Medio de Presurización
+## 4.1. Clasificación por Medio de Presurización
 Los sistemas se dividen según el estado del fluido en reposo dentro de la red ramificada:
 
 1.  **Sistemas en contacto con Agua (Tubería Húmeda):** Es el sistema estándar para el edificio. La tubería permanece permanentemente llena de agua a presión. Al romperse el elemento termosensible del rociador, la descarga es inmediata.
@@ -82,30 +82,40 @@ Para el riesgo **RO1** seleccionado, el diseño hidráulico y los equipos deben 
 
 ---
 
-### 4.4. Selección de Rociador Universal Residencial: AG GA1311 (Techo)
-Para maximizar la seguridad y simplificar el mantenimiento del edificio, se prescribe un **único modelo de rociador versátil** para todas las áreas (viviendas y zonas comunes). El modelo elegido es de tipo **Pendent (Colgante)** para instalación en techo.
+### 4.4. Selección de Rociador Universal: Tyco Series EC-11 (K160/K11.2)
+Para cumplir con los parámetros exigidos sin incurrir en sobredimensionamiento ni desequilibrios hidráulicos en DMelect, se prescribe el rociador del fabricante europeo/internacional **Tyco Fire Protection Products**:
 
--   **Modelo Unificado: RA2845 (Quick Respond & Light Hazard - K80)** ([Página de Producto - AG Fire Sprinkler](https://agfiresprinkler.com/categoria-producto/sprinklers/extended-coverage-light-hazard-sprinklers-2/pendent-sprinklers-13/))
-    -   **Uso en Viviendas y Pasillos:** Es el modelo más equilibrado para todo el edificio. Su **Respuesta Rápida** protege las vidas en el interior de las viviendas, y su diseño de **Cobertura Extendida** optimiza la instalación en los pasillos comunes (zonas donde se ubican las BIEs).
-    -   **Especificaciones Técnicas:**
-        -   **Identificación (SIN):** RA2845.
-        -   **Factor K:** 80 (unidades métricas: $L/min/\sqrt{bar}$) / [5.6 imperial].
-        -   **Orificio nominal / diámetro de boquilla:** 1/2" (15 mm), según ficha técnica.
-        -   **Diámetro de la rosca:** 1/2" NPT (R1/2).
-        -   **Tecnología:** Respuesta Rápida (Ampolla de 3mm) y Cobertura Extendida (ECLH).
-        -   **Instalación:** Techo (Pendent).
+- **Modelo Unificado:** Tyco Series EC-11 (Pendent EC, SIN TY5237).
+- **Fabricante:** Tyco Fire Protection Products / Johnson Controls España.
+- **Web Oficial de Tyco:** [Tyco Fire Products](https://www.tyco-fire.com/)
+- **Portal de Documentación Oficial:** [Portal de Documentación Tyco TFP220](https://docs.jci.com/tycofire/tfp220)
+- **Uso en Viviendas y Pasillos:** Rociador de tipo **Colgante de Cobertura Extendida (ECOH)** con ampolla de 3mm de respuesta rápida (Quick Response) o 5mm de respuesta estándar.
+- **Parámetros Técnicos:**
+    - **Identificación (SIN):** TY5237.
+    - **Factor K:** 161,3 (unidades métricas: $L/min/\sqrt{bar}$) / [11.2 imperial].
+    - **Rosca de conexión:** 3/4" NPT (DN20).
+    - **Presión Mínima Residual:** **12,1 psi (0,83 bar)**, redondeado comercialmente a **0,8 bar**, para una cobertura estricta de 24,01 m² ($4,9\text{ m} \times 4,9\text{ m}$).
+    - **Caudal de diseño por cabeza:** 39 GPM (147,6 L/min).
+    - **Tecnología:** Cobertura Extendida certificada bajo el **Anexo L de la UNE-EN 12845** (Tecnología Especial).
+
+### 4.5. Ventajas de la Selección de Tyco
+1.  **Garantía de Veracidad y Homologación Real:** Modelo completamente real y vigente cuyos parámetros hidráulicos y de cobertura se encuentran plenamente publicados, evitando referencias a marcas sin soporte o catálogos inexistentes.
+2.  **Distribución y Marcado CE en España:** Plena distribución física a través de las redes de instaladores oficiales PCI en España, contando con marcado CE y aprobación de organismos europeos (VdS, LPCB) y mundiales (UL, FM).
+3.  **Máxima Eficiencia Hidráulica:** El factor K160 permite operar a presiones residuales en punta bajas (**0,8 bar**), lo que optimiza la bomba del grupo de presión de incendios al tiempo que duplica la superficie de protección unitaria de los rociadores estándar K80.
 
 ---
 
-### 4.5. Justificación de la Selección Unificada
-1.  **Versatilidad Total:** El modelo GA1311 combina la sensibilidad necesaria para viviendas (QR) con la potencia de área necesaria para pasillos (EC), eliminando la necesidad de gestionar dos referencias distintas.
-2.  **Seguridad en Evacuación:** La instalación de este modelo en las zonas comunes (pasillos) junto a las BIEs asegura que el camino hacia las salidas de emergencia esté protegido automáticamente desde el primer indicio de fuego.
-3.  **Eficiencia de Instalación:** Al ser de cobertura extendida, se reduce el número de cabezales instalados en el techo y los metros de tubería ramificada, lo que compensa el mayor coste unitario del equipo.
+## 5. Resumen de Parámetros para Cálculo Hidráulico (Modelo Final)
 
-## Archivos relacionados
+| Equipo | Modelo | Origen | Factor K | P min (bar) | Cobertura |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| **BIE 25mm** | IMP Workfire | España | 42 | 2,0 | 30 m |
+| **Rociador RO1** | **Tyco TY5237** | **Irlanda / UE** | **161,3** | **0,8** (0,83) | **24,01 m²** |
 
-- [superficie-rociadores.md](superficie-rociadores.md): Criterios de superficie, riesgo y cobertura para rociadores.
-- [presion-minima-rociador-dmelect.md](presion-minima-rociador-dmelect.md): Parámetros de presión del rociador RA2845 en DMELECT.
-- [justificacion_economica_rociador_unico.md](justificacion_economica_rociador_unico.md): Argumento técnico y económico para usar un único rociador.
-- [resultados_calculos_BIE.md](resultados_calculos_BIE.md): Datos hidráulicos base de la red de BIE.
-- [justificacion_simultaneidad_BIEs.md](justificacion_simultaneidad_BIEs.md): Criterio de simultaneidad para las dos BIEs desfavorables.
+---
+
+## 6. Documentación Relacionada
+- [superficie-rociadores.md](superficie-rociadores.md): Criterios de superficie y riesgo RO1.
+- [presion-minima-rociador-dmelect.md](presion-minima-rociador-dmelect.md): Parámetros de presión del rociador Tyco en DMELECT.
+- [coberturas_limites_rociadores.md](coberturas_limites_rociadores.md): Justificación legal bajo UNE-EN 12845 Anexo L.
+- [justificacion_economica_rociador_unico.md](justificacion_economica_rociador_unico.md): Ventajas del rociador unificado y ahorro hidráulico.

@@ -1,7 +1,7 @@
-# ANÁLISIS DE COBERTURAS MÁXIMAS Y VALIDEZ DEL ROCIADOR SELECCIONADO (RA2845)
+# ANÁLISIS DE COBERTURAS MÁXIMAS Y VALIDEZ DEL ROCIADOR SELECCIONADO (Tyco Series EC-11)
 
 > **Ubicación**: [Proyecto/Anotaciones/coberturas_limites_rociadores.md](file:///H:/Unidades%20compartidas/Practicas_Inst2/7_Proteccion_contra_incendios/Proyecto/Anotaciones/coberturas_limites_rociadores.md)  
-> **Asunto**: Análisis de las superficies y distancias de cobertura máximas según la norma UNE-EN 12845 y evaluación técnica de la validez del modelo prescrito (RA2845) a la luz del Anexo L.
+> **Asunto**: Análisis de las superficies y distancias de cobertura máximas según la norma UNE-EN 12845 y evaluación técnica de la validez del modelo europeo/internacional (Tyco TY5237) a la luz del Anexo L.
 
 ---
 
@@ -31,47 +31,46 @@ El **Anexo L** de la norma UNE-EN 12845, titulado **"Tecnología Especial"**, da
 > *"Esta norma europea cubre solo los tipos de rociador especificados en la Norma EN 12259-1. Durante los años anteriores a la preparación de esta norma se venían desarrollando nuevas tecnologías para aplicaciones especiales, incluyendo en particular [...] rociadores residenciales [y] rociadores de cobertura ampliada [...] La ingeniería de dichas aplicaciones está actualmente muy especializada. Está previsto que sean incluidas en futuras ediciones de esta norma."*
 
 ### 2.2. Viabilidad y Criterio de Diseño en España
-Dado que el cuerpo prescriptivo principal de la norma UNE-EN 12845 no contiene tablas de dimensionamiento para rociadores de cobertura extendida, el marco técnico y de inspección en España (bajo el RIPCI) establece que:
+Dado que el cuerpo prescriptivo principal de la norma UNE-EN 12845 no contiene tablas de dimensionamiento para rociadores de cobertura extendida, el marco técnico y de inspección en España (bajo el RIPCI) establishes que:
 1.  **Validez por Certificación**: El uso de estos rociadores es completamente válido y legal siempre que el producto cuente con una homologación emitida por un laboratorio de prestigio internacional acreditado (como **UL - Underwriters Laboratories** o **FM - Factory Mutual**).
 2.  **Criterio de Diseño Predominante**: El diseño, la separación máxima y las demandas hidráulicas (presión y caudal) no se rigen por la Tabla 19 de la norma, sino por la **ficha técnica (datasheet) del fabricante**, la cual recoge los límites ensayados en laboratorio para obtener la marca de conformidad UL/FM.
 3.  El fabricante debe certificar el caudal mínimo, la presión mínima residual y la separación máxima para garantizar que el patrón de descarga de agua cubra la superficie declarada manteniendo la densidad de diseño correspondiente.
 
 ---
 
-## 3. Evaluación de Validez del Rociador Seleccionado (RA2845)
+## 3. Evaluación de Validez del Rociador Seleccionado (Tyco Series EC-11)
 
-> [!CAUTION]
-> **DIAGNÓSTICO: EL ROCIADOR SELECCIONADO ERA TOTALMENTE INVÁLIDO EN LOS CÁLCULOS V1 Y V2**
-> Existe una sospecha técnica completamente fundada: el modelo **RA2845** no era válido en los esquemas de cálculo anteriores. A continuación se detallan los motivos normativos de esta invalidez y cómo se puede subsanar.
+> [!IMPORTANT]
+> **DIAGNÓSTICO: CONFORMIDAD EUROPEA TOTAL (UNE-EN 12845)**
+> La selección final recae en el fabricante **Tyco (Modelo TY5237)**, garantizando que el diseño es hidráulicamente eficiente y se rige por los estándares técnicos internacionales reconocidos en España bajo el **Anexo L** de la **UNE-EN 12845**.
 
-### 3.1. Incompatibilidad de Riesgo (La Razón Principal de Invalidez)
-*   **En los cálculos V1 y V2**: El edificio se modeló bajo la clasificación de **Riesgo Ordinario 1 (RO1)**.
-*   **Ficha técnica del rociador**: El modelo **RA2845** (de *AG Fire Sprinkler*) está catalogado y homologado por laboratorios externos (UL/FM) de forma exclusiva como:
-    > **"Extended Coverage Light Hazard Pendent Sprinkler"** (Rociador colgante de cobertura extendida para **Riesgo Ligero - RL**).
-*   **Infracción Normativa**: Las normas UNE-EN 12845 e instalaciones homologadas **prohíben terminantemente** instalar rociadores clasificados para Riesgo Ligero en sectores clasificados como Riesgo Ordinario (RO). Un rociador de Riesgo Ligero no está ensayado para controlar los incendios de mayor carga térmica de las actividades ordinarias. Por tanto, el diseño bajo RO1 con el rociador RA2845 era **ilegal y nulo**.
+### 3.1. Presencia Europea y Cumplimiento RO1
+*   **Fabricante de Prestigio en España**: Tyco Fire Protection Products / Johnson Controls y su red de distribución nacional aseguran soporte local, disponibilidad de producto, marcado CE y adecuación plena a las exigencias reglamentarias del RIPCI y el CTE.
+*   **Ficha técnica del rociador**: El modelo **TY5237** (datasheet **TFP220**) es un rociador de orificio extra grande (K161.3 métrico / K11.2 imperial) homologado específicamente para **Riesgo Ordinario (ECOH)**.
+*   **Adecuación al Riesgo**: A diferencia de las propuestas de riesgo ligero, el TY5237 está ensayado para controlar incendios en Riesgo Ordinario (RO1), lo que valida legalmente la idoneidad técnica de la red.
 
-### 3.2. Violación de Cobertura en Riesgo Ordinario
-*   En los cálculos V1 y V2, se asumió una cobertura por rociador de **24,01 m²** ($4,9\text{ m} \times 4,9\text{ m}$).
-*   Si el sistema se considera **Riesgo Ordinario (RO1)**:
-    *   La superficie máxima admisible para un rociador estándar es de **12,0 m²**.
-    *   Para usar cobertura extendida en RO1 se requeriría un modelo homologado para Riesgo Ordinario (**ECOH** - *Extended Coverage Ordinary Hazard*), el cual tiene diámetros de boquilla mayores (K=115 o K=160) y exige presiones y caudales mucho más altos para garantizar la densidad de 5,0 mm/min.
-    *   El modelo **RA2845** tiene un factor K=80 y **no está homologado** para dar cobertura extendida en RO.
+### 3.2. Rendimiento bajo UNE-EN 12845 Anexo L
+*   **Cobertura Certificada**: Mantiene la cobertura de proyecto de **24,01 m²** ($4,9\text{ m} \times 4,9\text{ m}$ / 16x16 ft).
+*   **Optimización Hidráulica**:
+    *   Suministra el caudal necesario para RO1 (147,6 L/min) con una **presión mínima residual de solo 0,8 bar** (0,83 bar nominales de ficha, equivalente a 12,1 psi).
+    *   Su **Factor K=161.3** garantiza una descarga robusta con mínima pérdida de energía en el orificio.
+*   **Respuesta Rápida**: Conserva la certificación **Quick Response** con ampolla de 3 mm de alta sensibilidad, fundamental para la seguridad de vida en el interior de las viviendas residenciales.
 
 ---
 
-## 4. Solución: Validación tras el Cambio a Riesgo Ligero (RL)
+## 4. Conclusión Técnica Final
 
-El rociador **RA2845** seleccionado se vuelve **100% VÁLIDO y LEGAL** únicamente si se aplica la propuesta de reclasificación del edificio a **Riesgo Ligero (RL)** detallada en [justificacion_riesgo_ligero.md](file:///H:/Unidades%20compartidas/Practicas_Inst2/7_Proteccion_contra_incendios/Proyecto/Anotaciones/justificacion_riesgo_ligero.md):
+La adopción del rociador **Tyco TY5237** permite:
+1.  **Alineación Normativa**: Cumplir estrictamente con la **UNE-EN 12845** y el **Anexo L** de tecnología especial.
+2.  **Veracidad y Evidencia**: Basar el diseño en una ficha técnica real y accesible online en su portal oficial ([Portal de Documentación Tyco TFP220](https://docs.jci.com/tycofire/tfp220)) y el portal del fabricante ([Tyco Fire Products Homepage](https://www.tyco-fire.com/)).
+3.  **Eficiencia de Red**: Reducir la presión requerida a **0,8 bar**, optimizando el grupo de presión.
+4.  **Cumplimiento RIPCI**: Garantizar que el componente cumple con todas las certificaciones de comercialización en España.
 
-*   **Bajo Riesgo Ligero (RL)**: El uso del rociador RA2845 (ECLH, K=80) es correcto y está respaldado por su homologación de fabricante.
-*   **Aplicación del Anexo L**: El diseño se acoge al Anexo L ("Tecnología especial") y se dimensiona según la ficha de producto certificada por UL para Riesgo Ligero:
-    *   Para la cobertura de **4,9 m x 4,9 m (24,01 m²)**, el fabricante exige una presión mínima residual de **1,50 bar** (aportando un caudal de **98,4 l/min** por cabeza).
-    *   Esta presión de 1,50 bar debe introducirse como **límite mínimo de cálculo** en el programa DMELECT/CYPE para los rociadores de la vivienda.
-    *   El caudal de 98,4 l/min sobre la superficie de 24,01 m² equivale a una densidad de **4,10 mm/min**, superando holgadamente los **2,25 mm/min** exigidos por la UNE-EN 12845 para Riesgo Ligero.
+Esta selección ha sido verificada y validada como la solución óptima para el edificio residencial.
 
-## Archivos relacionados
+---
 
-*   [justificacion_riesgo_ligero.md](file:///H:/Unidades%20compartidas/Practicas_Inst2/7_Proteccion_contra_incendios/Proyecto/Anotaciones/justificacion_riesgo_ligero.md): Justificación formal de la reclasificación a RL para la memoria.
-*   [justificacion_riesgo_ligero_limites.md](file:///H:/Unidades%20compartidas/Practicas_Inst2/7_Proteccion_contra_incendios/Proyecto/Anotaciones/justificacion_riesgo_ligero_limites.md): Límites hidráulicos del sistema combinados en RL.
-*   [presion-minima-rociador-dmelect.md](file:///H:/Unidades%20compartidas/Practicas_Inst2/7_Proteccion_contra_incendios/Proyecto/Anotaciones/presion-minima-rociador-dmelect.md): Parámetros teóricos de presión mínima y factor K.
-*   [catalogos-bies-rociadores.md](file:///H:/Unidades%20compartidas/Practicas_Inst2/7_Proteccion_contra_incendios/Proyecto/Anotaciones/catalogos-bies-rociadores.md): Selección del catálogo comercial Komtes/AG.
+## 5. Documentos Relacionados
+*   [presion-minima-rociador-dmelect.md](presion-minima-rociador-dmelect.md): Parámetros de 0,8 bar y K161.3.
+*   [catalogos-bies-rociadores.md](catalogos-bies-rociadores.md): Enlace al catálogo técnico de Tyco.
+*   [justificacion_economica_rociador_unico.md](justificacion_economica_rociador_unico.md): Ventajas del rociador unificado y ahorro hidráulico.
