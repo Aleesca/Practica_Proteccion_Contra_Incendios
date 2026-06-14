@@ -1,0 +1,29 @@
+\babel@toc {spanish}{}\relax 
+\cftpagenumbersoff {section}
+\contentsline {section}{\'{I}ndice de figuras}{\es@scroman {ii}}{section*.1}%
+\cftpagenumberson {section}
+\contentsline {section}{Resumen}{1}{section*.2}%
+\contentsline {section}{\numberline {1}Introducción e objetivos}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Contexto y Marco Normativo}{2}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Metodología}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Datos introducidos en el programa}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Topología del edificio y selección del esquema de instalación}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Justificación del trazado elegido}{9}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Equipos instalados y materiales de la instalación}{11}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Resultados y discusión}{11}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Análisis de la verificación hidráulica mediante mapa de estados}{12}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Análisis de los puntos singulares más desfavorables}{13}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Red de Bocas de Incendio Equipadas (BIE)}{14}{subsubsection.3.2.1}%
+\contentsline {paragraph}{Comprobación numérica paso a paso para la BIE crítica (Nudo 125)}{14}{paragraph*.8}%
+\contentsline {paragraph}{Verificación y corrección de sobrepresión en la BIE del Nudo 122}{14}{paragraph*.9}%
+\contentsline {subsubsection}{\numberline {3.2.2}Red de Rociadores Automáticos}{15}{subsubsection.3.2.2}%
+\contentsline {paragraph}{Comprobación numérica paso a paso para el rociador crítico (Nudo 142)}{15}{paragraph*.10}%
+\contentsline {subsection}{\numberline {3.3}Verificación normativa y criterios de aceptación}{16}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Discusión técnica y comparativa de alternativas (RO1 vs RL)}{17}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Conclusiones}{19}{section.4}%
+\contentsline {section}{Bibliografía}{22}{section.4}%
+\contentsline {section}{Anexo 1: Características técnicas}{23}{appendixcounter.1}%
+\contentsline {subsection}{Boca de Incendio Equipada}{24}{section*.11}%
+\contentsline {subsection}{Rociadores}{27}{section*.11}%
+\contentsline {section}{Anexo 2: Cálculos}{34}{appendixcounter.2}%
+\contentsline {section}{Anexo 3: Planos}{42}{appendixcounter.3}%
