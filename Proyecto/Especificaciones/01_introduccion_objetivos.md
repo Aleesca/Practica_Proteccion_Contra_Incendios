@@ -6,46 +6,56 @@ Introducir el contexto tecnico de la proteccion contra incendios en edificios re
 
 ## Subapartados propuestos
 
-El apartado puede organizarse como una secuencia de contexto, alcance, objetivo general, objetivos especificos y criterios normativos de referencia. La redaccion debe mantener continuidad entre esos bloques para que no parezcan epigrafes aislados.
+El apartado se organiza en base al contexto, alcance de los sistemas, marco normativo, objetivos principales y especificos.
 
-## Contenido que debe cubrir
+## Contenido definitivo (Cerrado)
 
-La introduccion debe explicar que las instalaciones de PCI tienen como finalidad limitar el desarrollo del incendio, facilitar la intervencion y proteger a los ocupantes. Conviene presentar las BIEs como medio manual de primera intervencion y los rociadores como sistema automatico de control o extincion inicial.
+### Contexto y Marco Normativo
 
-El texto debe indicar que el edificio estudiado se modela con una red comun de alimentacion, grupo de presion, BIEs y rociadores. Se mantendran los tres objetivos ya presentes en `main.tex`: diseno y calculo de BIEs, diseno y calculo de rociadores, y analisis y comprobacion normativa. Como objetivo transversal, se anadira la interpretacion critica de los resultados hidraulicos.
+En el diseño arquitectónico y de ingeniería contemporáneo, la seguridad frente a incendios representa uno de los requerimientos más estrictos e ineludibles. En los edificios destinados a uso residencial colectivo, donde la densidad de ocupación y los tiempos de evacuación en caso de emergencia pueden elevar sustancialmente el riesgo para las vidas humanas, la implementación de medidas eficaces de protección activa contra incendios resulta indispensable. La protección activa comprende todos aquellos equipos y sistemas instalados con el objeto de detectar la presencia de fuego, controlar su propagación radial o vertical, y proceder a su mitigación o extinción definitiva. La funcionalidad de estos sistemas se divide fundamentalmente entre la intervención temprana manual y la supresión autónoma e inmediata.
 
-## Normativa y criterios a citar
+Las Bocas de Incendio Equipadas (BIE) representan el exponente clásico de los sistemas de protección activa de accionamiento manual y primera intervención. Compuestas estructuralmente por una manguera, un soporte giratorio, una válvula de paso y una boquilla lanza con posibilidad de regular el chorro de agua, permiten a los ocupantes del propio edificio o a los equipos de primera intervención desplegar una línea de agua presurizada para combatir el fuego en su fase de gestación o desarrollo inicial. Su flexibilidad radica en el control directo del chorro de agua hacia el foco del incendio, lo que maximiza la eficiencia en la aplicación del agente extintor y permite enfriar las superficies adyacentes de manera dirigida. No obstante, al depender de la acción humana para su puesta en marcha y manejo, su efectividad está sujeta a la presencia física de personas capacitadas y a las condiciones de visibilidad y temperatura ambiental en el sector afectado.
 
-- CTE DB-SI, especialmente como marco general de seguridad en caso de incendio.
-- RIPCI, Real Decreto 513/2017, para condiciones de equipos e instalaciones.
-- UNE-EN 671-1 para BIEs de manguera semirrigida.
-- UNE-EN 12845 para rociadores automaticos.
-- Fichas tecnicas de fabricantes para la comprobacion de equipos seleccionados.
+Por el contrario, los sistemas de rociadores automáticos (sprinklers) constituyen sistemas autónomos y automáticos de supresión de incendios que no requieren de la intervención humana directa. Estos emisores están distribuidos estratégicamente a nivel de techo y permanecen cerrados por medio de un elemento térmicamente sensible —como un bulbo de vidrio que contiene un líquido expansible al calor o un fusible de aleación eutéctica—. Cuando la columna de gases calientes de un incendio incide sobre el rociador y este alcanza una temperatura predeterminada de activación, el elemento fusible se rompe o funde, liberando el obturador y permitiendo la descarga inmediata de un patrón de agua pulverizada en forma de parábola sobre el foco ígneo. Esta respuesta autónoma no solo controla localmente el incendio y limita el incremento de temperatura ambiental en el recinto, sino que además mitiga la generación de humos tóxicos, facilitando las labores de evacuación y protegiendo la integridad estructural del edificio.
 
-## Propuesta de redaccion
+El marco normativo nacional español impone una rigurosa estructura técnica y prestacional para garantizar la idoneidad y fiabilidad de estos sistemas de extinción hidráulica. El Código Técnico de la Edificación, en su Documento Básico de Seguridad en caso de Incendio (CTE DB-SI), actúa como la norma marco que define las exigencias mínimas de seguridad en el territorio español, determinando en qué condiciones de uso, altura de evacuación o superficie es obligatoria la instalación de determinados elementos de protección activa. Paralelamente, el Reglamento de Instalaciones de Protección Contra Incendios (RIPCI, aprobado por el Real Decreto 513/2017) gobierna las condiciones de diseño, instalación, mantenimiento preventivo y características de calidad de los componentes de las instalaciones. 
 
-La proteccion contra incendios en los edificios combina medidas de prevencion, deteccion, evacuacion y extincion. Dentro de las instalaciones activas, las Bocas de Incendio Equipadas permiten una primera intervencion manual sobre el foco del incendio, mientras que los rociadores automaticos actuan de forma autonoma cuando se alcanza la temperatura de disparo del elemento termosensible.
+La relevancia técnica de este reglamento radica en que obliga a que todo elemento instalado disponga de una certificación de conformidad con las normas armonizadas europeas. En el caso de las Bocas de Incendio Equipadas con manguera semirrígida (generalmente de diámetro nominal de veinticinco milímetros por su mayor facilidad de manejo), el diseño hidráulico y de componentes se rige por la norma UNE-EN 671-1, que fija los requisitos de caudal mínimo de boquilla en función de la presión dinámica de entrada. Por su parte, la norma de referencia para el diseño, cálculo e instalación de los rociadores automáticos es la UNE-EN 12845, la cual establece de manera pormenorizada las demandas de densidad de diseño (expresada en litros por minuto y metro cuadrado), las áreas de operación de cálculo correspondientes según la clasificación del riesgo (como el Riesgo Ligero o el Riesgo Ordinario) y la autonomía mínima necesaria de la reserva de agua para garantizar una operación hidráulica fiable en condiciones extremas.
 
-El objetivo principal de esta practica es familiarizarse con los conceptos relativos a las instalaciones de proteccion contra incendios mediante el diseno y calculo de una instalacion interior compuesta por BIEs y rociadores automaticos. Para ello se parte de la geometria del edificio, se define el trazado de la red, se seleccionan equipos compatibles con la normativa aplicable y se comprueba el comportamiento hidraulico del sistema.
+Para ilustrar de forma práctica la inserción de estos sistemas dentro del esquema de protección activa, la Figura 1 ofrece un diagrama conceptual de la tipología de las instalaciones de protección contra incendios consideradas. Por su parte, las Figuras 2 y 3 ejemplifican, respectivamente, una Boca de Incendio Equipada en fase de operación manual y un rociador automático activado por su elemento termosensible en una fase autónoma de control de incendio.
 
-Los objetivos especificos son: disenar y calcular la red interior de BIEs; disenar y calcular la red interior de rociadores automaticos; analizar los resultados obtenidos en el programa de calculo; y comprobar que los valores de presion, caudal, velocidad y reserva de agua son coherentes con los criterios normativos y tecnicos adoptados.
+### Figuras Técnicas de Apoyo
 
-## Datos o referencias internas utiles
+- **Figura 1**: Contexto general de las instalaciones de protección contra incendios.
+  - Ruta en repositorio: `Practica_PCI_LaTeX/Figuras/IPCI.png`
+  - Pie de figura: `Fuente: Elaboración grupal.`
+- **Figura 2**: Boca de Incendio Equipada de manguera semirrígida en funcionamiento.
+  - Ruta en repositorio: `Practica_PCI_LaTeX/Figuras/BIE_en_funcionamiento.png`
+  - Pie de figura: `Fuente: Elaboración grupal.`
+- **Figura 3**: Rociador automático en funcionamiento por activación termosensible.
+  - Ruta en repositorio: `Practica_PCI_LaTeX/Figuras/Rocioador_en_funcionamiento.png`
+  - Pie de figura: `Fuente: Elaboración grupal.`
 
-- Notas tecnicas: [catalogos de BIEs y rociadores](../Anotaciones/catalogos-bies-rociadores.md).
-- Normativa local del repositorio: `../../Normativa/DBSI.pdf`, `../../Normativa/Normas BIEs/`, `../../Normativa/Normas Rociadores/`.
+*Nota de portada: Las imágenes `chimenea_recta.jpg`, `ule.jpg` y `escudo-ingenierias.png` quedan documentadas como material de portada o institucional, no como figuras técnicas del cuerpo de la memoria.*
 
-## Figuras a integrar
+### Objetivos del Proyecto
 
-Las figuras tecnicas se incorporaran durante la redaccion de la memoria solo si ayudan a introducir visualmente los sistemas descritos. Todas llevaran como pie de figura la indicacion `Fuente: Elaboracion grupal`.
+El objetivo primordial del presente proyecto consiste en capacitar al proyectista en el diseño integral, dimensionamiento hidráulico y verificación reglamentaria de una instalación de protección contra incendios para un edificio residencial colectivo. El enfoque del estudio no se limita a un mero cálculo mecánico, sino que persigue el análisis crítico del comportamiento hidráulico del agua bajo diversas condiciones de demanda simultánea. Para alcanzar este propósito general, se establecen los siguientes objetivos específicos:
 
-- `../../Practica_PCI_LaTeX/Figuras/IPCI.png`: contexto general de las instalaciones de proteccion contra incendios.
-- `../../Practica_PCI_LaTeX/Figuras/BIE_en_funcionamiento.png`: apoyo visual para explicar las Bocas de Incendio Equipadas.
-- `../../Practica_PCI_LaTeX/Figuras/Rocioador_en_funcionamiento.png`: apoyo visual para explicar los rociadores automaticos.
+- **Diseño geométrico e hidráulico de la red de Bocas de Incendio Equipadas**: Definir el trazado óptimo de las conducciones desde la fuente de suministro común hasta cada uno de los terminales de manguera de veinticinco milímetros distribuidos en la vertical del edificio, garantizando una presión mínima residual y un caudal normalizado en el emisor crítico.
+- **Dimensionamiento y distribución del sistema de rociadores automáticos**: Proyectar la red de tuberías de distribución y ramales para dar servicio a los rociadores distribuidos según los criterios de cobertura espacial y densidad de descarga correspondientes a la clasificación del riesgo regulada por la norma UNE-EN 12845.
+- **Verificación reglamentaria y simulación en mapa de estados**: Contrastar las variables físicas resultantes del modelo de cálculo (tales como velocidades de circulación por tubería para prevenir fenómenos de erosión y presiones estáticas/dinámicas en los terminales) con las limitaciones impuestas por el Código Técnico de la Edificación y el Reglamento de Instalaciones de Protección Contra Incendios.
+- **Optimización y resolución de singularidades**: Evaluar críticamente el sobredimensionamiento derivado de hipótesis voluntarias de protección en contraposición con las exigencias mínimas normativas, y diseñar soluciones de ingeniería de detalle, tales como la incorporación de válvulas reductoras de presión, para corregir sobrepresiones en nudos de cota baja propensos a superar los umbrales de servicio de los materiales.
 
-Las imagenes `../../Practica_PCI_LaTeX/Figuras/chimenea_recta.jpg`, `../../Practica_PCI_LaTeX/Figuras/ule.jpg` y `../../Practica_PCI_LaTeX/Figuras/escudo-ingenierias.png` quedan documentadas como material de portada o institucional, no como figuras tecnicas del cuerpo de la memoria.
+## Decisión sobre el Carácter Voluntario y Sobredimensionamiento
 
-## Pendientes antes de pasar a LaTeX
+Tras el análisis preliminar de la tipología del edificio objeto del proyecto, se ha constatado que, de acuerdo con el Código Técnico de la Edificación (DB-SI Sección 4), no existe una obligación reglamentaria de dotar a este tipo de edificio residencial de una instalación completa de Bocas de Incendio Equipadas ni de un sistema de rociadores automáticos. Sin embargo, con el fin de elevar el estándar de seguridad de los ocupantes, el diseño plantea la implantación de ambos sistemas de forma voluntaria. 
 
-- Decidir si se menciona expresamente que la instalacion puede ser una mejora voluntaria en un edificio residencial o si esa discusion se reserva para resultados.
-- Corregir en `main.tex` la errata "realtivos" cuando se migre la redaccion final.
+A pesar de que el carácter voluntario define gran parte de la filosofía de diseño y justifica el sobredimensionamiento de la reserva de agua del aljibe (calculado para cumplir simultáneamente con los escenarios de BIEs y rociadores), se determina que **la discusión analítica y numérica detallada sobre esta decisión no se incluirá en esta sección de introducción**.
+
+Por coherencia metodológica y para mantener el rigor técnico del documento, este análisis crítico y las justificaciones específicas del dimensionamiento de la reserva de agua se desplazarán al apartado de **Resultados y discusión** (Fase 4) y a las **Conclusiones** (Fase 5). De este modo, la argumentación sobre el sobredimensionamiento y las medidas adoptadas (como el control de sobrepresiones puntuales mediante válvulas reductoras en las plantas inferiores) se basará directamente en los resultados cuantitativos y comprobaciones arrojados por el modelo de simulación hidráulica.
+
+## Control de Cambios y Cierre
+
+- **Estado**: Cerrado y aprobado con ampliación de contenido técnico.
+- **Revisión de Coherencia**: Los objetivos han sido expandidos cubriendo de manera explícita el diseño de BIEs, rociadores automáticos, optimización y resolución de singularidades. El contexto y marco normativo han sido desarrollados extensivamente en prosa técnica de alta densidad conceptual, justificando las diferencias y complementariedad de los sistemas manuales y autónomos.

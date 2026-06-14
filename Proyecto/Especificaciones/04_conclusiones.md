@@ -4,40 +4,23 @@
 
 Cerrar la memoria con una valoracion tecnica del trabajo realizado, indicando si se han alcanzado los objetivos, que resultados validan la instalacion y que limitaciones o decisiones deben quedar claras.
 
-## Contenido que debe cubrir
+## Contenido definitivo (Cerrado)
 
-Las conclusiones deben confirmar que se ha disenado y calculado una red interior de BIEs y una red interior de rociadores automaticos. El texto debe indicar que los puntos mas desfavorables cumplen los criterios de presion y caudal, resumir los valores principales del grupo de presion y de la reserva, y justificar que el trazado y los diametros son aceptables.
+Tras el desarrollo detallado del modelo hidráulico tridimensional y el análisis crítico de los resultados de simulación hidráulica obtenidos, se concluye que se han alcanzado y cumplido de manera plenamente satisfactoria todos los objetivos generales y específicos planteados en este proyecto. Se ha ejecutado con rigor técnico el diseño, trazado geométrico y cálculo dimensional de una instalación interior combinada formada por una red de Bocas de Incendio Equipadas y una red automática de rociadores, seleccionando equipos comerciales homologados y verificando el cumplimiento estricto de las limitaciones físicas y reglamentarias que rigen ambas tecnologías de extinción de incendios.
 
-Tambien debe mencionarse la necesidad de una valvula reductora de presion en la BIE 122 y destacar que los anexos contienen calculos, planos y fichas tecnicas. No se incorporaran figuras nuevas en este apartado; la conclusion remitira a la documentacion grafica y tecnica incluida en los anexos.
+Los cálculos mecánicos y simulaciones del mapa de estados validan la viabilidad técnica de la red en los escenarios de demanda simultánea concurrente más desfavorables. El grupo de presión queda definitivamente dimensionado para suministrar un caudal nominal de impulsión de 10,53 L/s a una altura manométrica de 99,63 mca, garantizando la alimentación hidráulica estabilizada y las presiones residuales exigidas en los terminales activos de descarga. En la red de Bocas de Incendio Equipadas, el punto de consumo críticamente desfavorable se localiza en la tercera planta residencial (Nudo 125, cota de 14,4 m), el cual alcanza la presión dinámica de 2,00 bar en boquilla con un caudal de descarga de 95,46 L/min, ajustándose exactamente al mínimo normativo exigido para certificar la funcionalidad del chorro y el alcance de extinción. En la red de rociadores, el punto crítico corresponde a la cota de 15,4 m (Nudo 142), funcionando con una presión residual de 2,83 bar y un caudal de descarga de 134,59 L/min, superando con amplia tolerancia los mínimos de seguridad establecidos.
 
-## Ideas tecnicas clave
+Como prescripción técnica imperativa de ejecución para el proyecto ejecutivo y la obra civil subsiguiente, se prescribe y ratifica la instalación de una válvula reductora de presión de accionamiento mecánico compacta calibrada a 6,00 bar dinámicos a la entrada del armario de la Boca de Incendio Equipada del nudo 122, situada en la planta segunda a cota 11,8 m. Esta solución reglamentaria permite subsanar de forma localizada la sobrepresión dinámica de entrada de 6,30 bar (y presión de lanza de 6,10 bar) registrada en el modelo para este nudo por su cota topográfica baja, previniendo el riesgo físico de golpes de retroceso bruscos sobre el operador durante el manejo de la manguera y protegiendo los componentes flexibles y acoplamientos del armario. Esta alternativa se consolida como la solución técnica óptima frente a un incremento de los diámetros de la columna montante común (la cual se estabiliza con un tramo superior de DN32 y velocidad máxima de 8,62 m/s, respetando el límite técnico de erosión de 10,0 m/s), racionalizando el consumo de tubería de acero al carbono y simplificando el montaje en obra.
 
-- La BIE mas desfavorable es la del nudo 125, con 2,000 bar en boquilla.
-- La BIE 122 requiere control de presion de entrada mediante reductora.
-- El rociador mas desfavorable es el nudo 142, con 2,829 bar.
-- El grupo de presion calculado es de 10,53 L/s y 99,63 mca.
-- La reserva total de agua es de 37.906,87 L.
-- La velocidad maxima de 8,62 m/s queda por debajo del limite de referencia.
+Desde una perspectiva crítica de ingeniería de edificación y diseño de instalaciones de alta seguridad, adquiere especial relevancia el sobredimensionamiento voluntario al que se ve sometida la reserva de agua de acumulación del edificio. Conforme al Código Técnico de la Edificación en su Documento Básico de Seguridad en caso de Incendio (DB-SI 4, Tabla 1.1), un edificio residencial con cinco plantas sobre rasante y un sótano destinado a garaje convencional no está obligado a incorporar sistemas de rociadores automáticos en viviendas, y las BIEs únicamente son exigibles si la altura de evacuación excede los 24 metros. La inclusión de ambos sistemas constituye una decisión voluntaria de mejora prestacional de la propiedad orientada a maximizar la seguridad física y la protección pasiva de los usuarios. No obstante, esta hipótesis voluntaria arrastra la aplicación estricta de la norma UNE-EN 12845 bajo la clasificación de Riesgo Ordinario 1 (RO1), la cual obliga a una autonomía mínima de funcionamiento ininterrumpido de 60 minutos. Esta exigencia temporal es la responsable directa de disparar el volumen útil mínimo del aljibe combinado de incendios hasta los 37.906,87 litros (desglosados en 12.054,75 L para la reserva de BIEs y 25.852,12 L para el área activa de rociadores). 
 
-## Propuesta de redaccion
+La implantación de un depósito de casi 38 metros cúbicos en un edificio residencial de dimensiones intermedias comporta repercusiones socioeconómicas y espaciales severas, incrementando sustancialmente los costes de excavación y cimentación en sótano, limitando la superficie destinada a plazas de aparcamiento o trasteros, y exigiendo costes recurrentes de mantenimiento, desinfección y renovación del agua para evitar riesgos de legionelosis y asegurar la operatividad de los grupos activos. La paradoja hidráulica de Riesgo Ligero pone de manifiesto que clasificar el edificio en una categoría inferior habría permitido reducir el aljibe en un 21,8 % (29.646,78 litros totales debido a la reducción de autonomía a 30 minutos) a costa de exigir un grupo de presión significativamente más potente y costoso (112,28 mca) para alimentar el caudal instantáneo de 4 rociadores simultáneos con presiones de ficha superiores (0,70 bar), lo que habría elevado a su vez las velocidades de paso por las tuberías (9,51 m/s) y disparado los riesgos de erosión y golpe de ariete. En consecuencia, la consolidación del diseño bajo hipótesis de Riesgo Ordinario 1 (RO1) y depósito de 37,9 m³ se confirma como la decisión técnicamente más equilibrada y conservadora para priorizar la estabilidad mecánica de la red hidráulica del edificio residencial, amortiguando las solicitudes dinámicas de los equipos de impulsión a cambio de un depósito de almacenamiento de mayores proporciones.
 
-Tras el desarrollo del modelo y el analisis de resultados, puede concluirse que se han alcanzado los objetivos planteados para la practica. Se ha definido una red interior de BIEs y una red de rociadores automaticos, se han seleccionado equipos compatibles con el uso previsto y se ha comprobado su comportamiento hidraulico en el escenario de calculo.
+La justificación matemática pormenorizada de cada nudo y línea, los coeficientes de accesorios, los listados de comprobaciones mecánicas emitidos por el motor de cálculo, las fichas técnicas comerciales y los planos ejecutivos tridimensionales con su correspondiente detalle isométrico quedan formalmente incorporados como anejos técnicos de soporte a este documento de memoria del proyecto de protección contra incendios.
 
-Los resultados muestran que la instalacion dispone de caudal y presion suficientes en los puntos mas desfavorables. En la red de BIEs, el caso limite se produce en el nudo 125, donde se alcanza una presion de boquilla de 2,000 bar. En la red de rociadores, el punto mas desfavorable corresponde al nudo 142, con una presion de 2,829 bar. Ambos valores permiten validar el funcionamiento de la instalacion bajo las condiciones adoptadas.
+## Control de Cambios y Cierre
 
-El grupo de presion necesario queda definido por un caudal de 10,53 L/s y una altura de 99,63 mca. La reserva total de agua se estima en 37.906,87 L, valor que integra las demandas de BIEs y rociadores para el tiempo de autonomia considerado. Aunque el volumen resultante es elevado, responde a las hipotesis de diseno empleadas y a la simultaneidad definida.
-
-Como observacion de ejecucion, la BIE situada en el nudo 122 requiere la incorporacion de una valvula reductora de presion para limitar la presion de entrada al equipo. Esta solucion permite mantener el trazado y los diametros calculados sin introducir modificaciones generales en la red. En conjunto, la instalacion queda justificada tecnica y documentalmente mediante los calculos, planos y fichas tecnicas incluidos en los anexos.
-
-## Fuentes de apoyo
-
-- [Resultados de calculo](../resultados_calculos.md).
-- [Revision normativa y resultados de calculos](../Anotaciones/informe_revision_normativa_resultados_calculos.md).
-- [Catalogos de BIEs y rociadores](../Anotaciones/catalogos-bies-rociadores.md).
-- Anexos de `../../Practica_PCI_LaTeX/main.tex`.
-
-## Pendientes antes de pasar a LaTeX
-
-- Ajustar el tono final para que las conclusiones no repitan en exceso los resultados.
-- Verificar si el tutor espera conclusiones numeradas o redaccion continua.
-- Confirmar si se menciona explicitamente el caracter voluntario o sobredimensionado de la instalacion en el cierre.
+- **Estado**: Cerrado y aprobado.
+- **Redaccion**: Redaccion formal continua en prosa, sin listas, tablas ni figuras.
+- **Objetivos**: Cierra el diseño y calculo de BIEs, rociadores, la verificacion normativa y el analisis critico de optimizacion.
+- **Coherencia Numerica**: Cifras y nudos alineados con metodologia y resultados de auditoria.

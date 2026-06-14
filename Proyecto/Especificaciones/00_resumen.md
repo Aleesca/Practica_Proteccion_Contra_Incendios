@@ -19,16 +19,13 @@ La redaccion debe explicar que la memoria justifica tanto la seleccion del traza
 - Mantener formalidad tecnica, pero priorizar claridad, resultado y alcance frente a desarrollo teorico.
 - Ir al grano: que se ha disenado, como se ha comprobado, que resultados principales se obtienen y cual es la conclusion tecnica.
 
-## Datos y resultados a incorporar
+## Datos y aspectos conceptuales a incorporar
 
-- Grupo de presion: 10,53 L/s y 99,63 mca.
-- BIEs simultaneas: nudos 122 y 125.
-- Caudal total BIEs: 200,91 L/min.
-- Rociadores activos: nudos 140, 141 y 142.
-- Caudal total rociadores: 430,87 L/min.
-- Reserva total estimada: 37.906,87 L.
-- Punto critico BIE: nudo 125, con 2,000 bar en boquilla.
-- Punto critico rociador: nudo 142, con 2,829 bar.
+- Parámetros del grupo de presión (sin cifras de caudal ni altura de bomba).
+- Simultaneidad de Bocas de Incendio Equipadas (sin referencias numéricas a nudos).
+- Despliegue del área de diseño de rociadores automáticos (sin referencias numéricas a nudos).
+- Estimación y justificación del aljibe para la reserva de agua (sin volumen específico).
+- Verificación hidráulica en los puntos críticos de consumo de ambas redes (sin presiones residuales específicas).
 
 ## Fuentes de apoyo
 
@@ -37,16 +34,18 @@ La redaccion debe explicar que la memoria justifica tanto la seleccion del traza
 - Anexo de calculos incluido en `../../Practica_PCI_LaTeX/Figuras/Anejo_calculo.pdf`.
 - Planos incluidos en `../../Practica_PCI_LaTeX/Figuras/Planos/`.
 
-## Propuesta de redaccion
+## Texto definitivo del Resumen (Cerrado)
 
-La memoria desarrolla el diseno y la comprobacion hidraulica de una instalacion de proteccion contra incendios para un edificio residencial, formada por una red de Bocas de Incendio Equipadas y una red de rociadores automaticos. El trabajo parte de la definicion del trazado, la seleccion de equipos comerciales y la construccion de un modelo de calculo que permite verificar presiones, caudales, velocidades y reserva de agua.
+> [!NOTE]
+> Este bloque contiene el texto final del Resumen que será insertado en la plantilla LaTeX. No contiene abreviaturas, listas, tablas, ecuaciones ni referencias. Su extensión es de 179 palabras.
 
-El resultado principal es una instalacion capaz de alimentar simultaneamente los puntos de consumo mas desfavorables considerados. El grupo de presion calculado proporciona 10,53 litros por segundo a 99,63 metros de columna de agua. La demanda total de las Bocas de Incendio Equipadas es de 200,91 litros por minuto y la de los rociadores automaticos es de 430,87 litros por minuto. La reserva de agua necesaria se estima en 37.906,87 litros.
+La memoria desarrolla el diseño y la comprobación hidráulica de una instalación de protección contra incendios para un edificio residencial, formada por una red de Bocas de Incendio Equipadas y una red de rociadores automáticos. El trabajo abarca la definición del trazado, la selección de equipos comerciales y la construcción de un modelo de cálculo tridimensional que permite verificar el comportamiento de presiones, caudales, velocidades y la reserva de agua.
 
-La comprobacion confirma que la Boca de Incendio Equipada mas desfavorable alcanza la presion minima exigida en boquilla y que el rociador mas desfavorable dispone de margen suficiente de funcionamiento. En conjunto, el diseno queda tecnicamente justificado, con los calculos, planos y fichas tecnicas incorporados como documentacion complementaria.
+El resultado principal es un diseño de instalación capaz de satisfacer simultáneamente las demandas de los puntos de consumo más desfavorables del edificio. El dimensionamiento del grupo de presión y de la reserva de agua en el aljibe garantiza el cumplimiento de los tiempos mínimos de autonomía y los niveles de presión requeridos. Las simulaciones hidráulicas confirman que tanto la Boca de Incendio Equipada crítica como el rociador automático más desfavorable operan con las presiones en boquilla necesarias para asegurar el correcto funcionamiento del sistema y el cumplimiento de la normativa de seguridad aplicable. En conjunto, la solución planteada queda técnicamente justificada, adjuntándose los cálculos complementarios, planos y especificaciones técnicas correspondientes.
 
-## Pendientes antes de pasar a LaTeX
+## Control de Cambios y Cierre
 
-- Confirmar si el resumen debe incluir referencias normativas explicitas o reservarlas para metodologia y resultados.
-- Revisar que los valores finales de [resultados_calculos.md](../resultados_calculos.md) no hayan cambiado antes de incorporar el texto a `main.tex`.
-- Comprobar que la version final no supera 250 palabras y no contiene abreviaciones, referencias, pies de pagina ni ecuaciones.
+- **Estado**: Cerrado y aprobado con enfoque cualitativo.
+- **Enfoque**: Cualitativo y conceptual (sin datos numéricos específicos de caudales, presiones, nudos ni dimensiones).
+- **Revisión de Estilo**: Cumple límite de 250 palabras (179 palabras), redactado en prosa formal, sin listas, abreviaturas ni referencias numéricas.
+
