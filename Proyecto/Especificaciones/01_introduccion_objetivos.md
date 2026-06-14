@@ -6,19 +6,13 @@ Introducir el contexto tecnico de la proteccion contra incendios en edificios re
 
 ## Subapartados propuestos
 
-- Contexto de la proteccion contra incendios.
-- Alcance de la practica.
-- Objetivo general.
-- Objetivos especificos.
-- Criterios normativos de referencia.
+El apartado puede organizarse como una secuencia de contexto, alcance, objetivo general, objetivos especificos y criterios normativos de referencia. La redaccion debe mantener continuidad entre esos bloques para que no parezcan epigrafes aislados.
 
 ## Contenido que debe cubrir
 
-- Explicar que las instalaciones de PCI tienen como finalidad limitar el desarrollo del incendio, facilitar la intervencion y proteger a los ocupantes.
-- Presentar las BIEs como medio manual de primera intervencion y los rociadores como sistema automatico de control o extincion inicial.
-- Indicar que el edificio estudiado se modela con red comun de alimentacion, grupo de presion, BIEs y rociadores.
-- Mantener los tres objetivos ya presentes en `main.tex`: diseno y calculo de BIEs, diseno y calculo de rociadores, analisis y comprobacion normativa.
-- Anadir como objetivo transversal la interpretacion critica de los resultados hidraulicos.
+La introduccion debe explicar que las instalaciones de PCI tienen como finalidad limitar el desarrollo del incendio, facilitar la intervencion y proteger a los ocupantes. Conviene presentar las BIEs como medio manual de primera intervencion y los rociadores como sistema automatico de control o extincion inicial.
+
+El texto debe indicar que el edificio estudiado se modela con una red comun de alimentacion, grupo de presion, BIEs y rociadores. Se mantendran los tres objetivos ya presentes en `main.tex`: diseno y calculo de BIEs, diseno y calculo de rociadores, y analisis y comprobacion normativa. Como objetivo transversal, se anadira la interpretacion critica de los resultados hidraulicos.
 
 ## Normativa y criterios a citar
 
@@ -38,9 +32,18 @@ Los objetivos especificos son: disenar y calcular la red interior de BIEs; disen
 
 ## Datos o referencias internas utiles
 
-- Figuras de apoyo: `IPCI.png`, `BIE_en_funcionamiento.png`, `Rocioador_en_funcionamiento.png`.
-- Notas tecnicas: `Proyecto/Anotaciones/catalogos-bies-rociadores.md`.
-- Normativa local del repositorio: `Normativa/DBSI.pdf`, `Normativa/Normas BIEs/`, `Normativa/Normas Rociadores/`.
+- Notas tecnicas: [catalogos de BIEs y rociadores](../Anotaciones/catalogos-bies-rociadores.md).
+- Normativa local del repositorio: `../../Normativa/DBSI.pdf`, `../../Normativa/Normas BIEs/`, `../../Normativa/Normas Rociadores/`.
+
+## Figuras a integrar
+
+Las figuras tecnicas se incorporaran durante la redaccion de la memoria solo si ayudan a introducir visualmente los sistemas descritos. Todas llevaran como pie de figura la indicacion `Fuente: Elaboracion grupal`.
+
+- `../../Practica_PCI_LaTeX/Figuras/IPCI.png`: contexto general de las instalaciones de proteccion contra incendios.
+- `../../Practica_PCI_LaTeX/Figuras/BIE_en_funcionamiento.png`: apoyo visual para explicar las Bocas de Incendio Equipadas.
+- `../../Practica_PCI_LaTeX/Figuras/Rocioador_en_funcionamiento.png`: apoyo visual para explicar los rociadores automaticos.
+
+Las imagenes `../../Practica_PCI_LaTeX/Figuras/chimenea_recta.jpg`, `../../Practica_PCI_LaTeX/Figuras/ule.jpg` y `../../Practica_PCI_LaTeX/Figuras/escudo-ingenierias.png` quedan documentadas como material de portada o institucional, no como figuras tecnicas del cuerpo de la memoria.
 
 ## Pendientes antes de pasar a LaTeX
 

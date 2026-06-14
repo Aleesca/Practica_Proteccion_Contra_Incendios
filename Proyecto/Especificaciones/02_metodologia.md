@@ -13,16 +13,9 @@ Describir como se ha construido el modelo de calculo: datos introducidos, defini
 
 ## Datos introducidos en el programa
 
-Debe explicarse que el modelo hidraulico se ha definido mediante:
+Debe explicarse que el modelo hidraulico se ha definido a partir de las plantas y cotas del edificio, incluyendo sotano y plantas sobre rasante. La descripcion debe recoger la introduccion de nudos, ramas, montantes y derivaciones hasta BIEs y rociadores, junto con las longitudes reales o equivalentes de tuberia.
 
-- Plantas y cotas del edificio, incluyendo sotano y plantas sobre rasante.
-- Nudos, ramas, montantes y derivaciones hasta BIEs y rociadores.
-- Longitudes reales o equivalentes de tuberia.
-- Material de tuberia y coeficiente de Hazen-Williams.
-- Diametros nominales y diametros interiores.
-- Perdidas secundarias consideradas.
-- Elementos terminales: BIE 25 mm y rociadores automaticos.
-- Grupo de presion y condiciones de demanda simultanea.
+Tambien se indicaran el material de tuberia, el coeficiente de Hazen-Williams, los diametros nominales e interiores, las perdidas secundarias consideradas y los elementos terminales empleados. El apartado debe cerrar esta parte explicando el grupo de presion y las condiciones de demanda simultanea.
 
 Valores de referencia ya documentados:
 
@@ -36,29 +29,23 @@ Valores de referencia ya documentados:
 
 El texto debe explicar que la instalacion se organiza mediante una red comun alimentada por grupo de presion, desde la que se distribuye el caudal hacia las BIEs y hacia los ramales de rociadores. Conviene describir:
 
-- Existencia de una montante principal.
-- Derivaciones por plantas hacia zonas comunes y viviendas.
-- Integracion de BIEs en zonas accesibles.
-- Distribucion de rociadores sobre la superficie protegida.
-- Relacion entre planos de planta, perfil vertical y esquema unifilar.
+La existencia de una montante principal, las derivaciones por plantas hacia zonas comunes y viviendas, la integracion de BIEs en zonas accesibles y la distribucion de rociadores sobre la superficie protegida. Tambien debe explicarse la relacion entre planos de planta, perfil vertical y esquema unifilar.
 
-Figuras recomendadas:
+## Figuras a integrar
 
-- `Practica_PCI_LaTeX/Figuras/definicion_plantas.png`.
-- `Practica_PCI_LaTeX/Figuras/esquema_instalacion.png`.
-- `Practica_PCI_LaTeX/Figuras/Perfil_Plantas.png`.
-- Planos del anexo `Practica_PCI_LaTeX/Figuras/Planos/`.
+Las figuras metodologicas deben incorporarse para explicar la geometria y el criterio de modelado, siempre con el pie `Fuente: Elaboracion grupal`.
+
+- `../../Practica_PCI_LaTeX/Figuras/definicion_plantas.png`: definicion de plantas y cotas del edificio.
+- `../../Practica_PCI_LaTeX/Figuras/Perfil_Plantas.png`: relacion entre perfil vertical, cotas y plantas.
+- `../../Practica_PCI_LaTeX/Figuras/Inicio_Tramo_y_BIE.png`: esquema inicial de trazado, tramo y ubicacion de BIE.
+
+Los planos del anexo `../../Practica_PCI_LaTeX/Figuras/Planos/` se citaran como documentacion complementaria, no como sustitucion de estas figuras de apoyo.
 
 ## Justificacion del trazado elegido
 
-La redaccion debe justificar que el trazado busca:
+La redaccion debe justificar que el trazado busca reducir recorridos innecesarios, mantener una lectura clara de la red y llevar la alimentacion por zonas comunes y montantes verticales. Tambien debe explicar que la ubicacion elegida garantiza accesibilidad y cobertura de las BIEs, mientras que los rociadores cubren la superficie protegida respetando separaciones y condicionantes geometricos.
 
-- Reducir recorridos innecesarios y mantener una lectura clara de la red.
-- Llevar la alimentacion por zonas comunes y montantes verticales.
-- Garantizar accesibilidad y cobertura de las BIEs.
-- Cubrir la superficie protegida por rociadores respetando separaciones y condicionantes geometricos.
-- Mantener velocidades dentro del limite de calculo.
-- Evitar cambios de diametro innecesarios una vez comprobada la viabilidad hidraulica.
+El texto debe anadir que el trazado mantiene las velocidades dentro del limite de calculo y evita cambios de diametro innecesarios una vez comprobada la viabilidad hidraulica.
 
 Debe mencionarse que la superficie protegida de planta considerada para rociadores es 270,882 m2, formada por dos viviendas de 127,965 m2 y una zona comun de 14,952 m2. Esta superficie sirve para definir el alcance fisico de proteccion, no para sustituir el area de operacion hidraulica normativa.
 
@@ -82,10 +69,10 @@ El trazado se ha elegido buscando continuidad hidraulica, facilidad de ejecucion
 
 ## Fuentes de apoyo
 
-- `Proyecto/resultados_calculos.md`.
-- `Proyecto/Anotaciones/superficie-rociadores.md`.
-- `Proyecto/Anotaciones/catalogos-bies-rociadores.md`.
-- `Proyecto/Anotaciones/sobre_altura_cotas.md`.
+- [Resultados de calculo](../resultados_calculos.md).
+- [Superficie de rociadores](../Anotaciones/superficie-rociadores.md).
+- [Catalogos de BIEs y rociadores](../Anotaciones/catalogos-bies-rociadores.md).
+- [Altura y cotas](../Anotaciones/sobre_altura_cotas.md).
 
 ## Pendientes antes de pasar a LaTeX
 

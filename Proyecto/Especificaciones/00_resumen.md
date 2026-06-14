@@ -6,11 +6,9 @@ Redactar una sintesis inicial de la memoria que permita entender, antes de entra
 
 ## Contenido que debe cubrir
 
-- Presentar el alcance de la practica: diseno y calculo de una red interior de BIEs y una red de rociadores automaticos.
-- Indicar que el calculo se ha desarrollado mediante un modelo hidraulico de la instalacion, con comprobacion de caudales, presiones, velocidades y reserva de agua.
-- Explicar que la memoria justifica tanto la seleccion del trazado como la eleccion de equipos comerciales.
-- Anticipar el cumplimiento global de los requisitos de funcionamiento, destacando los puntos mas desfavorables.
-- Mencionar que los calculos completos, planos y fichas tecnicas se incorporan como anexos, sin citar referencias concretas dentro del resumen.
+El resumen debe presentar el alcance de la practica, centrado en el diseno y calculo de una red interior de BIEs y una red de rociadores automaticos. Tambien debe indicar que la comprobacion se ha desarrollado mediante un modelo hidraulico de la instalacion, con revision de caudales, presiones, velocidades y reserva de agua.
+
+La redaccion debe explicar que la memoria justifica tanto la seleccion del trazado como la eleccion de equipos comerciales, anticipar el cumplimiento global de los requisitos de funcionamiento y destacar los puntos mas desfavorables. Los calculos completos, planos y fichas tecnicas se mencionaran como anexos, sin citar referencias concretas dentro del resumen.
 
 ## Directrices de estilo y extension
 
@@ -34,10 +32,10 @@ Redactar una sintesis inicial de la memoria que permita entender, antes de entra
 
 ## Fuentes de apoyo
 
-- `Proyecto/resultados_calculos.md`.
-- `Proyecto/Anotaciones/informe_revision_normativa_resultados_calculos.md`.
-- Anexo de calculos incluido en `Practica_PCI_LaTeX/Figuras/Anejo_calculo.pdf`.
-- Planos incluidos en `Practica_PCI_LaTeX/Figuras/Planos/`.
+- [Resultados de calculo](../resultados_calculos.md).
+- [Revision normativa y resultados de calculos](../Anotaciones/informe_revision_normativa_resultados_calculos.md).
+- Anexo de calculos incluido en `../../Practica_PCI_LaTeX/Figuras/Anejo_calculo.pdf`.
+- Planos incluidos en `../../Practica_PCI_LaTeX/Figuras/Planos/`.
 
 ## Propuesta de redaccion
 
@@ -50,5 +48,5 @@ La comprobacion confirma que la Boca de Incendio Equipada mas desfavorable alcan
 ## Pendientes antes de pasar a LaTeX
 
 - Confirmar si el resumen debe incluir referencias normativas explicitas o reservarlas para metodologia y resultados.
-- Revisar que los valores finales de `Proyecto/resultados_calculos.md` no hayan cambiado antes de incorporar el texto a `main.tex`.
+- Revisar que los valores finales de [resultados_calculos.md](../resultados_calculos.md) no hayan cambiado antes de incorporar el texto a `main.tex`.
 - Comprobar que la version final no supera 250 palabras y no contiene abreviaciones, referencias, pies de pagina ni ecuaciones.

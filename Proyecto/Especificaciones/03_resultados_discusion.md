@@ -13,13 +13,7 @@ Interpretar los resultados hidraulicos del modelo y demostrar que la instalacion
 
 ## Analisis de la verificacion hidraulica mediante mapa de estados
 
-Debe explicarse que el mapa de estados permite localizar visualmente:
-
-- Tramos con caudal significativo.
-- Tramos sin demanda en el escenario calculado.
-- Velocidades elevadas.
-- Nudos con menor presion dinamica.
-- Elementos terminales activos en la hipotesis de calculo.
+Debe explicarse que el mapa de estados permite localizar visualmente los tramos con caudal significativo, los tramos sin demanda en el escenario calculado, las velocidades elevadas, los nudos con menor presion dinamica y los elementos terminales activos en la hipotesis de calculo.
 
 Resultados clave:
 
@@ -30,7 +24,7 @@ Resultados clave:
 
 ## Puntos singulares mas desfavorables
 
-El texto debe separar BIEs y rociadores.
+El texto debe separar BIEs y rociadores para que el lector identifique con claridad que punto gobierna cada comprobacion. La figura `../../Practica_PCI_LaTeX/Figuras/Inicio_Tramo_y_BIE.png` puede reutilizarse si ayuda a explicar el arranque del trazado o la posicion de puntos singulares, siempre con el pie `Fuente: Elaboracion grupal`; si el apartado queda mas claro con tablas y resultados numericos, no es necesario forzar una figura nueva.
 
 Para BIEs:
 
@@ -62,12 +56,7 @@ La redaccion debe incluir una tabla o parrafo con estos criterios:
 
 ## Discusion tecnica
 
-La discusion debe tratar cuatro ideas:
-
-- El modelo queda hidraulicamente equilibrado porque los puntos criticos cumplen las presiones minimas.
-- La velocidad maxima es elevada pero admisible dentro del limite de calculo.
-- La valvula reductora en la BIE 122 es una medida puntual y mas razonable que redimensionar toda la red.
-- La reserva de agua resultante es elevada para un edificio residencial, pero coherente con la hipotesis de diseno adoptada.
+La discusion debe explicar que el modelo queda hidraulicamente equilibrado porque los puntos criticos cumplen las presiones minimas. Tambien debe razonar que la velocidad maxima es elevada pero admisible dentro del limite de calculo, que la valvula reductora en la BIE 122 es una medida puntual mas razonable que redimensionar toda la red y que la reserva de agua resultante, aunque elevada para un edificio residencial, es coherente con la hipotesis de diseno adoptada.
 
 Tambien puede mencionarse, si se desea un enfoque critico, la comparacion entre RO1 y Riesgo Ligero:
 
@@ -87,14 +76,14 @@ La reserva total de agua asciende a 37.906,87 L, resultado de sumar la reserva a
 
 ## Fuentes de apoyo
 
-- `Proyecto/resultados_calculos.md`.
-- `Proyecto/Anotaciones/informe_revision_normativa_resultados_calculos.md`.
-- `Proyecto/Anotaciones/comparativa_riesgo_ordinario_vs_ligero.md`.
-- `Proyecto/Anotaciones/presion-minima-rociador-dmelect.md`.
-- `Proyecto/Anotaciones/justificacion_simultaneidad_BIEs.md`.
+- [Resultados de calculo](../resultados_calculos.md).
+- [Revision normativa y resultados de calculos](../Anotaciones/informe_revision_normativa_resultados_calculos.md).
+- [Comparativa entre riesgo ordinario y ligero](../Anotaciones/comparativa_riesgo_ordinario_vs_ligero.md).
+- [Presion minima de rociador en DMELECT](../Anotaciones/presion-minima-rociador-dmelect.md).
+- [Justificacion de simultaneidad de BIEs](../Anotaciones/justificacion_simultaneidad_BIEs.md).
 
 ## Pendientes antes de pasar a LaTeX
 
 - Confirmar si se incluira una tabla de verificacion normativa completa en el cuerpo o solo una version resumida.
-- Revisar la coherencia entre los valores finales del anexo PDF y `Proyecto/resultados_calculos.md`.
+- Revisar la coherencia entre los valores finales del anexo PDF y [resultados_calculos.md](../resultados_calculos.md).
 - Decidir si la comparacion RO1/RL entra en el cuerpo principal o queda solo como criterio interno de discusion.

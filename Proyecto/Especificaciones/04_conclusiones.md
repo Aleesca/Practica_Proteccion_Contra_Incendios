@@ -6,13 +6,9 @@ Cerrar la memoria con una valoracion tecnica del trabajo realizado, indicando si
 
 ## Contenido que debe cubrir
 
-- Confirmar que se ha disenado y calculado una red interior de BIEs.
-- Confirmar que se ha disenado y calculado una red interior de rociadores automaticos.
-- Indicar que los puntos mas desfavorables cumplen los criterios de presion y caudal.
-- Resumir los valores principales del grupo de presion y reserva.
-- Justificar que el trazado y los diametros son aceptables.
-- Mencionar la necesidad de valvula reductora de presion en la BIE 122.
-- Destacar que los anexos contienen calculos, planos y fichas tecnicas.
+Las conclusiones deben confirmar que se ha disenado y calculado una red interior de BIEs y una red interior de rociadores automaticos. El texto debe indicar que los puntos mas desfavorables cumplen los criterios de presion y caudal, resumir los valores principales del grupo de presion y de la reserva, y justificar que el trazado y los diametros son aceptables.
+
+Tambien debe mencionarse la necesidad de una valvula reductora de presion en la BIE 122 y destacar que los anexos contienen calculos, planos y fichas tecnicas. No se incorporaran figuras nuevas en este apartado; la conclusion remitira a la documentacion grafica y tecnica incluida en los anexos.
 
 ## Ideas tecnicas clave
 
@@ -35,10 +31,10 @@ Como observacion de ejecucion, la BIE situada en el nudo 122 requiere la incorpo
 
 ## Fuentes de apoyo
 
-- `Proyecto/resultados_calculos.md`.
-- `Proyecto/Anotaciones/informe_revision_normativa_resultados_calculos.md`.
-- `Proyecto/Anotaciones/catalogos-bies-rociadores.md`.
-- Anexos de `Practica_PCI_LaTeX/main.tex`.
+- [Resultados de calculo](../resultados_calculos.md).
+- [Revision normativa y resultados de calculos](../Anotaciones/informe_revision_normativa_resultados_calculos.md).
+- [Catalogos de BIEs y rociadores](../Anotaciones/catalogos-bies-rociadores.md).
+- Anexos de `../../Practica_PCI_LaTeX/main.tex`.
 
 ## Pendientes antes de pasar a LaTeX
 
