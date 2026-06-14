@@ -28,6 +28,7 @@ El objetivo no es redefinir la plantilla LaTeX, sino conducir cada especificacio
 ## Activacion secuencial
 
 - [Plan maestro de activacion secuencial](plan_activacion_secuencial_integracion_memoria.md): ordena el cierre de los cinco Markdown modulares antes de una consolidacion LaTeX global final.
+- El plan maestro incluye una fase de cierre normativo: revisar enlaces web en `Proyecto/Anotaciones/`, consultar NotebookLM `PCI_Practica`/`PCI_Practicas` mediante `nlm-skill` y convertir normativa, manuales, catalogos y fichas tecnicas a referencias IEEE sin fechas de acceso ni URLs.
 
 ## Planes por especificacion
 

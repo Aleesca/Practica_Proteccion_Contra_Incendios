@@ -1,0 +1,188 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{CTE_DBSI}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=7bb21266b9df20a9e000878fae9d40b7}{%
+           family={{Ministerio de Vivienda y Agenda Urbana}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Madrid, Spain}%
+      }
+      \list{organization}{1}{%
+        {Codigo Tecnico de la Edificacion}%
+      }
+      \strng{namehash}{7bb21266b9df20a9e000878fae9d40b7}
+      \strng{fullhash}{7bb21266b9df20a9e000878fae9d40b7}
+      \strng{fullhashraw}{7bb21266b9df20a9e000878fae9d40b7}
+      \strng{bibnamehash}{7bb21266b9df20a9e000878fae9d40b7}
+      \strng{authorbibnamehash}{7bb21266b9df20a9e000878fae9d40b7}
+      \strng{authornamehash}{7bb21266b9df20a9e000878fae9d40b7}
+      \strng{authorfullhash}{7bb21266b9df20a9e000878fae9d40b7}
+      \strng{authorfullhashraw}{7bb21266b9df20a9e000878fae9d40b7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Documento Basico SI}. Seguridad en caso de incendio}
+      \field{year}{2025}
+    \endentry
+    \entry{RIPCI_2017}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=0a8a47b239b0cfc30441577302e15ff4}{%
+           family={{Ministerio de Economia, Industria y Competitividad}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Madrid, Spain}%
+      }
+      \strng{namehash}{0a8a47b239b0cfc30441577302e15ff4}
+      \strng{fullhash}{0a8a47b239b0cfc30441577302e15ff4}
+      \strng{fullhashraw}{0a8a47b239b0cfc30441577302e15ff4}
+      \strng{bibnamehash}{0a8a47b239b0cfc30441577302e15ff4}
+      \strng{authorbibnamehash}{0a8a47b239b0cfc30441577302e15ff4}
+      \strng{authornamehash}{0a8a47b239b0cfc30441577302e15ff4}
+      \strng{authorfullhash}{0a8a47b239b0cfc30441577302e15ff4}
+      \strng{authorfullhashraw}{0a8a47b239b0cfc30441577302e15ff4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{22}
+      \field{month}{5}
+      \field{note}{Boletin Oficial del Estado}
+      \field{title}{{Real Decreto 513/2017}, de 22 de mayo, por el que se aprueba el Reglamento de instalaciones de proteccion contra incendios}
+      \field{year}{2017}
+      \field{dateera}{ce}
+    \endentry
+    \entry{RIPCI_GUIA_2022}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=4c94cbcfe53a94675f45d45cc3f93441}{%
+           family={{Ministerio de Industria, Comercio y Turismo}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Madrid, Spain}%
+      }
+      \strng{namehash}{4c94cbcfe53a94675f45d45cc3f93441}
+      \strng{fullhash}{4c94cbcfe53a94675f45d45cc3f93441}
+      \strng{fullhashraw}{4c94cbcfe53a94675f45d45cc3f93441}
+      \strng{bibnamehash}{4c94cbcfe53a94675f45d45cc3f93441}
+      \strng{authorbibnamehash}{4c94cbcfe53a94675f45d45cc3f93441}
+      \strng{authornamehash}{4c94cbcfe53a94675f45d45cc3f93441}
+      \strng{authorfullhash}{4c94cbcfe53a94675f45d45cc3f93441}
+      \strng{authorfullhashraw}{4c94cbcfe53a94675f45d45cc3f93441}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Revision 3}
+      \field{title}{Guia tecnica de aplicacion: Reglamento de instalaciones de proteccion contra incendios, Real Decreto 513/2017}
+      \field{year}{2022}
+    \endentry
+    \entry{UNE_EN_671_1}{manual}{}{}
+      \list{location}{1}{%
+        {Madrid, Spain}%
+      }
+      \list{organization}{1}{%
+        {UNE}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{{UNE-EN 671-1:2013}. Instalaciones fijas de lucha contra incendios. Sistemas equipados con mangueras. Parte 1: Bocas de incendio equipadas con mangueras semirrigidas}
+      \field{year}{2013}
+    \endentry
+    \entry{UNE_EN_12845}{manual}{}{}
+      \list{location}{1}{%
+        {Madrid, Spain}%
+      }
+      \list{organization}{1}{%
+        {UNE}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{{UNE-EN 12845:2016+A1:2021}. Sistemas fijos de lucha contra incendios. Sistemas de rociadores automaticos. Diseno, instalacion y mantenimiento}
+      \field{year}{2021}
+    \endentry
+    \entry{TYCO_EC11}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=82429a31697197a54d901bd9715a5a42}{%
+           family={{Tyco Fire Products}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{82429a31697197a54d901bd9715a5a42}
+      \strng{fullhash}{82429a31697197a54d901bd9715a5a42}
+      \strng{fullhashraw}{82429a31697197a54d901bd9715a5a42}
+      \strng{bibnamehash}{82429a31697197a54d901bd9715a5a42}
+      \strng{authorbibnamehash}{82429a31697197a54d901bd9715a5a42}
+      \strng{authornamehash}{82429a31697197a54d901bd9715a5a42}
+      \strng{authorfullhash}{82429a31697197a54d901bd9715a5a42}
+      \strng{authorfullhashraw}{82429a31697197a54d901bd9715a5a42}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Ficha tecnica incorporada como anexo de caracteristicas tecnicas}
+      \field{number}{TFP220}
+      \field{title}{{Series EC-11} and {EC-14} Extended Coverage Pendent Sprinklers, Standard and Quick Response, {K}-factor 11.2 and 14.0}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://docs.jci.com/tycofire/tfp220
+      \endverb
+      \verb{url}
+      \verb https://docs.jci.com/tycofire/tfp220
+      \endverb
+    \endentry
+    \entry{IMP_WORKFIRE_300B2}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=d3fd5bc38a849c381779d111e1d8d8aa}{%
+           family={{Industrias Metalurgicas de Patino, S.L.}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3fd5bc38a849c381779d111e1d8d8aa}
+      \strng{fullhash}{d3fd5bc38a849c381779d111e1d8d8aa}
+      \strng{fullhashraw}{d3fd5bc38a849c381779d111e1d8d8aa}
+      \strng{bibnamehash}{d3fd5bc38a849c381779d111e1d8d8aa}
+      \strng{authorbibnamehash}{d3fd5bc38a849c381779d111e1d8d8aa}
+      \strng{authornamehash}{d3fd5bc38a849c381779d111e1d8d8aa}
+      \strng{authorfullhash}{d3fd5bc38a849c381779d111e1d8d8aa}
+      \strng{authorfullhashraw}{d3fd5bc38a849c381779d111e1d8d8aa}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Ficha tecnica incorporada como anexo de caracteristicas tecnicas}
+      \field{title}{Ficha tecnica de boca de incendio equipada {IMP Workfire 300/B2}}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.impsl.com/catalogo/categoria/15
+      \endverb
+      \verb{url}
+      \verb https://www.impsl.com/catalogo/categoria/15
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

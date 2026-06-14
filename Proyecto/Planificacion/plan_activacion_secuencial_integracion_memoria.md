@@ -15,6 +15,8 @@ La estrategia de trabajo es cerrar primero todos los Markdown modulares y realiz
 - [Plan de integracion de resultados y discusion](plan_integracion_03_resultados_discusion.md)
 - [Plan de integracion de conclusiones](plan_integracion_04_conclusiones.md)
 - [Task Orchestrator](../../.agents/agents/task-orchestrator.md)
+- [Anotaciones tecnicas](../Anotaciones/)
+- NotebookLM `PCI_Practica` o `PCI_Practicas`, resuelto mediante `nlm-skill`
 
 ## Decision de arquitectura documental
 
@@ -25,6 +27,7 @@ La estrategia de trabajo es cerrar primero todos los Markdown modulares y realiz
 - **Consolidacion LaTeX**: `latex-writer` solo se invoca cuando los cinco Markdown esten cerrados.
 - **Validacion LaTeX**: `latex-validator` se invoca al final sobre el artefacto LaTeX consolidado.
 - **Plantilla**: no se reestructura `Practica_PCI_LaTeX/main.tex`; se rellenan los bloques existentes.
+- **Referencias normativas**: antes de consolidar LaTeX se revisan `Proyecto/Anotaciones/` y NotebookLM para recopilar normativa, manuales y catalogos usados. Las referencias finales se redactan en formato IEEE propio de normativa o documentacion tecnica, sin fechas de acceso ni enlaces web.
 
 ## Secuencia de activacion
 
@@ -50,6 +53,7 @@ La estrategia de trabajo es cerrar primero todos los Markdown modulares y realiz
   - discrepancias entre valores historicos de `Proyecto/resultados_calculos.md` y el informe final de auditoria;
   - decision sobre tablas resumidas en metodologia y resultados;
   - decision sobre uso de figuras tecnicas;
+  - enlaces web citados en `Proyecto/Anotaciones/` que deban convertirse en referencias bibliograficas formales;
   - tratamiento de la comparativa RO1/RL;
   - tono final de conclusiones;
   - mencion o no del caracter voluntario o sobredimensionado.
@@ -57,6 +61,68 @@ La estrategia de trabajo es cerrar primero todos los Markdown modulares y realiz
 **Criterio de salida**:
 
 - El orquestador puede abrir la primera seccion sin crear nuevas fuentes ni modificar LaTeX.
+
+### Fase N. Cierre normativo y bibliografico
+
+**Momento de ejecucion**: despues de cerrar los Markdown tecnicos y antes de la consolidacion LaTeX global.
+
+**Objetivo**: recopilar toda la normativa, manuales y documentacion tecnica empleada en el proyecto, contrastarla con NotebookLM y dejarla lista para citarse correctamente en la memoria.
+
+**Entradas locales obligatorias**:
+
+- `Proyecto/Anotaciones/`
+- `Proyecto/Especificaciones/`
+- `Proyecto/resultados_calculos.md`
+- `Normativa/`
+- `Practica_PCI_LaTeX/refs.bib`
+
+**Revision de enlaces web en anotaciones**:
+
+- Buscar enlaces `http`, `https` y `www` en `Proyecto/Anotaciones/`.
+- Identificar si cada enlace corresponde a normativa, manual de software, catalogo tecnico, ficha de fabricante o material auxiliar.
+- Sustituir el uso editorial de enlaces web por una referencia formal a la norma, manual, catalogo o ficha tecnica que corresponda.
+- No trasladar a la memoria final fechas de acceso ni URLs cuando la referencia sea normativa o documentacion tecnica estable.
+
+**Invocacion de `nlm-skill`**:
+
+```yaml
+skill: nlm-skill
+proposito: Conectar con NotebookLM y contrastar la normativa empleada en el proyecto.
+notebook_objetivo: PCI_Practica
+fallback_notebook: PCI_Practicas
+flujo:
+  - Ejecutar nlm login o nlm login --check antes de consultar.
+  - Ejecutar nlm alias list y nlm notebook list si el alias PCI_Practica no existe.
+  - Resolver el notebook operativo como PCI_Practica o, si el repositorio lo nombra asi, PCI_Practicas.
+  - Usar nlm notebook query para pedir la lista de normativa, manuales y documentacion tecnica citada o usada en el proyecto.
+  - No usar nlm chat start.
+```
+
+**Consulta minima a NotebookLM**:
+
+```text
+Recopila toda la normativa, manuales, catalogos y fichas tecnicas empleados en el proyecto de proteccion contra incendios. Para cada fuente indica titulo oficial, organismo o fabricante, numero de norma o codigo documental si existe, edicion o fecha documental si aparece en la fuente, sistema al que aplica y apartado de la memoria donde debe citarse.
+```
+
+**Formato bibliografico requerido**:
+
+- Usar formato IEEE adaptado a normativa y documentacion tecnica.
+- Para normas: organismo, titulo de la norma, codigo de norma, edicion o anio si consta.
+- Para reales decretos o codigos tecnicos: entidad emisora, titulo oficial, identificador legal o documento basico, anio si consta.
+- Para catalogos o fichas tecnicas: fabricante, titulo de ficha o catalogo, codigo documental o modelo, revision o fecha documental si consta.
+- No incluir `Disponible en:`, URLs, enlaces web ni fechas de acceso.
+
+**Ejemplos de forma esperada**:
+
+- `[n] UNE, Sistemas fijos de lucha contra incendios. Sistemas de rociadores automaticos. Diseno, instalacion y mantenimiento, UNE-EN 12845.`
+- `[n] Ministerio de Vivienda, Codigo Tecnico de la Edificacion, Documento Basico SI: Seguridad en caso de incendio.`
+- `[n] Tyco Fire Products, Series EC-11 and EC-14 Extended Coverage Upright and Pendent Sprinklers, Data Sheet TFP220.`
+
+**Criterio de salida**:
+
+- Lista unica de referencias normativas y tecnicas lista para `refs.bib` o para el apartado bibliografico que use la memoria.
+- Confirmacion de que las citas del cuerpo no dependen de enlaces web.
+- Identificacion de fuentes locales o de NotebookLM que sigan incompletas.
 
 ### Fase 1. Activar `00_resumen.md`
 
@@ -225,6 +291,8 @@ entradas:
   - Proyecto/Especificaciones/02_metodologia.md
   - Proyecto/Especificaciones/03_resultados_discusion.md
   - Proyecto/Especificaciones/04_conclusiones.md
+  - Lista normativa y bibliografica cerrada en la Fase N
+  - Practica_PCI_LaTeX/refs.bib
   - Practica_PCI_LaTeX/main.tex
 salida_esperada: main.tex actualizado dentro de la estructura existente.
 control:
@@ -232,6 +300,7 @@ control:
   - No crear secciones principales nuevas.
   - Corregir erratas locales en bloques editados.
   - Mantener rutas relativas reales para figuras.
+  - Referenciar normativa y documentacion tecnica con formato IEEE sin URLs ni fechas de acceso.
 ```
 
 **Trabajo esperado de `latex-writer`**:
@@ -246,6 +315,7 @@ control:
 
 - Validacion semantica contra las especificaciones cerradas.
 - Validacion estatica de figuras, tablas, labels, rutas relativas y ausencia de preambulo nuevo.
+- Validacion bibliografica de referencias IEEE sin enlaces web ni fechas de acceso para normativa.
 - Compilacion de `Practica_PCI_LaTeX/main.tex` si el contexto es compilable.
 
 ## Criterios de aceptacion global
@@ -258,6 +328,7 @@ control:
   - Boca de Incendio Equipada critica: nudo 125, con 2,000 bar en boquilla;
   - rociador critico: nudo 142, con 2,829 bar.
 - `Practica_PCI_LaTeX/main.tex` mantiene su estructura editorial.
+- Las referencias normativas y tecnicas no contienen URLs ni fechas de acceso.
 - La validacion final no detecta contradicciones entre metodologia, resultados y conclusiones.
 
 ## Riesgos y controles
@@ -267,5 +338,6 @@ control:
 - **Expansion teorica**: limitar introduccion y metodologia a lo necesario para la practica.
 - **RO1/RL**: tratarlo solo como reflexion tecnica si se mantiene en resultados, nunca como decision pendiente.
 - **Figuras**: usar solo archivos existentes y con utilidad tecnica clara.
+- **Referencias web en anotaciones**: revisarlas como pista de fuente, no copiarlas como enlaces en la memoria.
+- **NotebookLM**: consultar `PCI_Practica` o `PCI_Practicas` con `nlm-skill` para cerrar la lista normativa antes de LaTeX.
 - **Conclusiones**: no introducir argumentos que no hayan aparecido en metodologia o resultados.
-
